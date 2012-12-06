@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <path>interior.ac</path>
+
+  <animation>
+    <!-- Objets opaques -->
+    <object-name>interieur</object-name>
+    <object-name>inttour</object-name>
+    <object-name>intporte</object-name>
+    <object-name>intbaie</object-name>
+
+    <!-- Objets transparents -->
+    <object-name>intvitres</object-name>
+    <object-name>intvitrebaie</object-name>
+  </animation>
+
+  <animation>
+    <type>noshadow</type>
+    <object-name>intvitres</object-name>
+    <object-name>intvitrebaie</object-name>
+  </animation>
+
+  <animation>
+    <type>shader</type>
+    <shader>chrome</shader>
+    <texture>Aircraft/Generic/Effects/glass_shader.png</texture>
+    <object-name>intvitres</object-name>
+    <object-name>intvitrebaie</object-name>
+  </animation>
+
+ <!-- Pilote -->
+  <model>
+    <path>Aircraft/PC-12/Models/Pilot/pilot.xml</path>
+    <offsets>
+      <x-m> -3.54497 </x-m>
+      <y-m> -0.32879 </y-m>
+      <z-m> -0.27645 </z-m>
+    </offsets>
+  </model>
+
+  <!-- Tableau de bord -->
+  <model>
+    <path>Aircraft/PC-12/Models/Interior/Panel/panel.xml</path>
+    <offsets>
+      <x-m> -3.844680 </x-m>
+      <y-m>  0.000000 </y-m>
+      <z-m> -0.001061 </z-m>
+    </offsets>
+  </model>
+
+  <!-- Porte avant -->
+  <animation>
+    <type>rotate</type>
+    <object-name>intporte</object-name>
+    <property>instrumentation/doors/crew/position-norm</property>
+    <interpolation>
+      <entry><ind> 0 </ind><dep>   0 </dep></entry>
+      <entry><ind> 1 </ind><dep> 155 </dep></entry>
+    </interpolation>
+    <axis>
+      <x1-m> -2.91089 </x1-m>
+      <y1-m> -0.79577 </y1-m>
+      <z1-m> -0.85223 </z1-m>
+      <x2-m> -2.44903 </x2-m>
+      <y2-m> -0.79087 </y2-m>
+      <z2-m> -0.85223 </z2-m>
+    </axis>
+  </animation>
+
+  <!-- Porte cargo -->
+  <animation>
+    <type>rotate</type>
+    <object-name>intbaie</object-name>
+    <object-name>intvitrebaie</object-name>
+    <property>instrumentation/doors/passenger/position-norm</property>
+    <interpolation>
+      <entry><ind> 0 </ind><dep>    0 </dep></entry>
+      <entry><ind> 1 </ind><dep> -100 </dep></entry>
+    </interpolation>
+    <axis>
+      <x1-m> -0.03429 </x1-m>
+      <y1-m> -0.52347 </y1-m>
+      <z1-m>  0.54909 </z1-m>
+      <x2-m>  1.19196 </x2-m>
+      <y2-m> -0.52828 </y2-m>
+      <z2-m>  0.54909 </z2-m>
+    </axis>
+  </animation>
+
+</PropertyList>
+
