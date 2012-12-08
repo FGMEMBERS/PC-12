@@ -21,6 +21,22 @@
   </view>
 
   <view n="101">
+    <name>Passager View</name>
+    <type>lookfrom</type>
+    <internal archive="y">true</internal>
+    <config>
+      <from-model type="bool">true</from-model>
+      <from-model-idx type="int">0</from-model-idx>
+      <ground-level-nearplane-m type="double">0.01f</ground-level-nearplane-m>
+      <x-offset-m archive="y">  0.40521 </x-offset-m> <!--Right-->
+      <y-offset-m archive="y">  0.18866 </y-offset-m> <!--Up-->
+      <z-offset-m archive="y"> -0.78058 </z-offset-m> <!--Back-->
+      <pitch-offset-deg> 0 </pitch-offset-deg>
+      <default-field-of-view-deg type="double"> 75 </default-field-of-view-deg>
+    </config>
+  </view>
+
+  <view n="102">
     <name>Tail Camera View</name>
     <type>lookfrom</type>
     <internal archive="y">true</internal>
@@ -32,7 +48,7 @@
       <y-offset-m archive="y"> 2.07598 </y-offset-m> <!--Up-->
       <z-offset-m archive="y"> 4.98234 </z-offset-m> <!--Back-->
       <pitch-offset-deg> -5 </pitch-offset-deg>
-      <default-field-of-view-deg type="double"> 30 </default-field-of-view-deg>
+      <default-field-of-view-deg type="double"> 50 </default-field-of-view-deg>
     </config>
   </view>
 

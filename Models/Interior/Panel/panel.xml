@@ -57,7 +57,37 @@
     <offsets>
       <x-m>  0.000 </x-m>
       <y-m> -0.556 </y-m>
-      <z-m> -0.040 </z-m>
+      <z-m>  0.040 </z-m>
+    </offsets>
+  </model>
+
+  <!-- AOS -->
+  <model>
+    <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/aoa/aoa.xml</path>
+    <offsets>
+      <x-m>  0.001 </x-m>
+      <y-m> -0.632 </y-m>
+      <z-m>  0.038 </z-m>
+    </offsets>
+  </model>
+
+  <!-- CHRONOMETER -->
+  <model>
+    <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/chrono/chronometer.xml</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m> -0.559 </y-m>
+      <z-m> -0.098 </z-m>
+    </offsets>
+  </model>
+
+  <!-- RWR -->
+  <model>
+    <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/rwr/rwr.xml</path>
+    <offsets>
+      <x-m>  0.011 </x-m>
+      <y-m> -0.272 </y-m>
+      <z-m> -0.069 </z-m>
     </offsets>
   </model>
 

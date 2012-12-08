@@ -35,6 +35,10 @@
     <object-name>aileronD</object-name>
     <object-name>voletG</object-name>
     <object-name>voletD</object-name>
+    <object-name>porteAG</object-name>
+    <object-name>porteAD</object-name>
+    <object-name>porteG</object-name>
+    <object-name>porteD</object-name>
     <object-name>ailes2</object-name>
     <object-name>profondeur</object-name>
     <object-name>direction</object-name>
@@ -47,8 +51,11 @@
     <object-name>bosse</object-name>
     
     <object-name>helice</object-name>
+    <object-name>axeA</object-name>
     <object-name>roueA</object-name>
+    <object-name>axeG</object-name>
     <object-name>roueG</object-name>
+    <object-name>axeD</object-name>
     <object-name>roueD</object-name>
     <object-name>echappe</object-name>
 
@@ -67,6 +74,10 @@
     <object-name>aileronD</object-name>
     <object-name>voletG</object-name>
     <object-name>voletD</object-name>
+    <object-name>porteAG</object-name>
+    <object-name>porteAD</object-name>
+    <object-name>porteG</object-name>
+    <object-name>porteD</object-name>
     <object-name>ailes2</object-name>
     <object-name>profondeur</object-name>
     <object-name>direction</object-name>
@@ -79,8 +90,11 @@
     <object-name>bosse</object-name>
     
     <object-name>helice</object-name>
+    <object-name>axeA</object-name>
     <object-name>roueA</object-name>
+    <object-name>axeG</object-name>
     <object-name>roueG</object-name>
+    <object-name>axeD</object-name>
     <object-name>roueD</object-name>
     <object-name>echappe</object-name>
 
@@ -108,6 +122,10 @@
     <object-name>aileronD</object-name>
     <object-name>voletG</object-name>
     <object-name>voletD</object-name>
+    <object-name>porteAG</object-name>
+    <object-name>porteAD</object-name>
+    <object-name>porteG</object-name>
+    <object-name>porteD</object-name>
     <object-name>ailes2</object-name>
     <object-name>profondeur</object-name>
     <object-name>direction</object-name>
@@ -140,9 +158,9 @@
   <model>
     <path>Aircraft/PC-12/Models/shadow.xml</path>
     <offsets>
-      <x-m>  0.0 </x-m>
-      <y-m>  0.0 </y-m>
-      <z-m> -1.8 </z-m>
+      <x-m>  0.00 </x-m>
+      <y-m>  0.00 </y-m>
+      <z-m> -2.05 </z-m>
     </offsets>
   </model>
 
@@ -346,6 +364,39 @@
 
   <!-- Volets -->
   <animation>
+    <type>translate</type>
+    <object-name>voletG</object-name>
+    <property>surface-positions/flap-pos-norm</property>
+    <interpolation>
+      <entry><ind> 0.0 </ind><dep> 0.0 </dep></entry>
+      <entry><ind> 0.1 </ind><dep> 0.1 </dep></entry>
+      <entry><ind> 1.0 </ind><dep> 0.1 </dep></entry>
+    </interpolation>
+    <factor> 0.1 </factor>
+    <axis>
+      <x> 1 </x>
+      <y> 0 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>voletG</object-name>
+    <property>surface-positions/flap-pos-norm</property>
+    <interpolation>
+      <entry><ind> 0.0 </ind><dep>  0.00 </dep></entry>
+      <entry><ind> 0.1 </ind><dep> -0.05 </dep></entry>
+      <entry><ind> 1.0 </ind><dep> -0.05 </dep></entry>
+    </interpolation>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
     <type>rotate</type>
     <object-name>voletG</object-name>
     <property>surface-positions/flap-pos-norm</property>
@@ -355,18 +406,18 @@
       <entry><ind> 1.0 </ind><dep> 50 </dep></entry>
     </interpolation>
     <axis>
-      <x1-m> -0.99421 </x1-m>
+      <x1-m> -0.98906 </x1-m>
       <y1-m> -4.91885 </y1-m>
-      <z1-m> -0.87122 </z1-m>
-      <x2-m> -0.79705 </x2-m>
-      <y2-m> -1.12837 </y2-m>
-      <z2-m> -1.27980 </z2-m>
+      <z1-m> -0.88627 </z1-m>
+      <x2-m> -0.79190 </x2-m>
+      <y2-m> -0.99852 </y2-m>
+      <z2-m> -1.29486 </z2-m>
     </axis>
   </animation>
 
   <animation>
     <type>translate</type>
-    <object-name>voletG</object-name>
+    <object-name>voletD</object-name>
     <property>surface-positions/flap-pos-norm</property>
     <interpolation>
       <entry><ind> 0.0 </ind><dep> 0.0 </dep></entry>
@@ -383,7 +434,7 @@
 
   <animation>
     <type>translate</type>
-    <object-name>voletG</object-name>
+    <object-name>voletD</object-name>
     <property>surface-positions/flap-pos-norm</property>
     <interpolation>
       <entry><ind> 0.0 </ind><dep>  0.00 </dep></entry>
@@ -407,49 +458,16 @@
       <entry><ind> 1.0 </ind><dep> 50 </dep></entry>
     </interpolation>
     <axis>
-      <x1-m> -0.79705 </x1-m>
-      <y1-m>  1.12837 </y1-m>
-      <z1-m> -1.27980 </z1-m>
-      <x2-m> -0.99421 </x2-m>
+      <x1-m> -0.79190 </x1-m>
+      <y1-m>  0.99852 </y1-m>
+      <z1-m> -1.29486 </z1-m>
+      <x2-m> -0.98906 </x2-m>
       <y2-m>  4.91885 </y2-m>
-      <z2-m> -0.87122 </z2-m>
+      <z2-m> -0.88627 </z2-m>
     </axis>
   </animation>
 
-  <animation>
-    <type>translate</type>
-    <object-name>voletD</object-name>
-    <property>surface-positions/flap-pos-norm</property>
-    <interpolation>
-      <entry><ind> 0.0 </ind><dep> 0.0 </dep></entry>
-      <entry><ind> 0.1 </ind><dep> 0.1 </dep></entry>
-      <entry><ind> 1.0 </ind><dep> 0.1 </dep></entry>
-    </interpolation>
-    <factor> 0.1 </factor>
-    <axis>
-      <x> 1 </x>
-      <y> 0 </y>
-      <z> 0 </z>
-    </axis>
-  </animation>
-
-  <animation>
-    <type>translate</type>
-    <object-name>voletD</object-name>
-    <property>surface-positions/flap-pos-norm</property>
-    <interpolation>
-      <entry><ind> 0.0 </ind><dep>  0.00 </dep></entry>
-      <entry><ind> 0.1 </ind><dep> -0.05 </dep></entry>
-      <entry><ind> 1.0 </ind><dep> -0.05 </dep></entry>
-    </interpolation>
-    <axis>
-      <x> 0 </x>
-      <y> 0 </y>
-      <z> 1 </z>
-    </axis>
-  </animation>
-
-  <!-- Animation des portes des trains
+  <!-- Animation des portes des trains -->
   <animation>
     <type>rotate</type>
     <object-name>porteAG</object-name>
@@ -460,12 +478,12 @@
       <entry><ind> 1.0 </ind><dep> -100 </dep></entry>
     </interpolation>
     <axis>
-      <x1-m> -3.045 </x1-m>
-      <y1-m> -0.117 </y1-m>
-      <z1-m> -0.927 </z1-m>
-      <x2-m> -2.224 </x2-m>
-      <y2-m> -0.117 </y2-m>
-      <z2-m> -0.965 </z2-m>
+      <x1-m> -4.45317 </x1-m>
+      <y1-m> -0.21689 </y1-m>
+      <z1-m> -1.12283 </z1-m>
+      <x2-m> -3.36350 </x2-m>
+      <y2-m> -0.21689 </y2-m>
+      <z2-m> -1.12310 </z2-m>
     </axis>
   </animation>
 
@@ -479,12 +497,12 @@
       <entry><ind> 1.0 </ind><dep> -100 </dep></entry>
     </interpolation>
     <axis>
-      <x1-m> -2.224 </x1-m>
-      <y1-m>  0.117 </y1-m>
-      <z1-m> -0.965 </z1-m>
-      <x2-m> -3.045 </x2-m>
-      <y2-m>  0.117 </y2-m>
-      <z2-m> -0.927 </z2-m>
+      <x1-m> -3.36350 </x1-m>
+      <y1-m>  0.21689 </y1-m>
+      <z1-m> -1.12310 </z1-m>
+      <x2-m> -4.45317 </x2-m>
+      <y2-m>  0.21689 </y2-m>
+      <z2-m> -1.12283 </z2-m>
     </axis>
   </animation>
 
@@ -494,17 +512,15 @@
     <property>gear/gear[1]/position-norm</property>
     <interpolation>
       <entry><ind> 0 </ind><dep>   0 </dep></entry>
-      <entry><ind> 1 </ind><dep> -90 </dep></entry>
+      <entry><ind> 1 </ind><dep> -85 </dep></entry>
     </interpolation>
-    <center>
-      <x-m> -0.717 </x-m>
-      <y-m> -1.619 </y-m>
-      <z-m> -0.679 </z-m>
-    </center>
     <axis>
-      <x> 1 </x>
-      <y> 0 </y>
-      <z> 0 </z>
+      <x1-m> -1.35212 </x1-m>
+      <y1-m> -2.36079 </y1-m>
+      <z1-m> -1.01243 </z1-m>
+      <x2-m> -1.09829 </x2-m>
+      <y2-m> -2.36079 </y2-m>
+      <z2-m> -0.99793 </z2-m>
     </axis>
   </animation>
 
@@ -513,24 +529,23 @@
     <object-name>porteD</object-name>
     <property>gear/gear[2]/position-norm</property>
     <interpolation>
-      <entry><ind> 0 </ind><dep>  0 </dep></entry>
-      <entry><ind> 1 </ind><dep> 90 </dep></entry>
+      <entry><ind> 0 </ind><dep>   0 </dep></entry>
+      <entry><ind> 1 </ind><dep> -85 </dep></entry>
     </interpolation>
-    <center>
-      <x-m> -0.717 </x-m>
-      <y-m>  1.619 </y-m>
-      <z-m> -0.679 </z-m>
-    </center>
     <axis>
-      <x> 1 </x>
-      <y> 0 </y>
-      <z> 0 </z>
+      <x1-m> -1.09829 </x1-m>
+      <y1-m>  2.36079 </y1-m>
+      <z1-m> -0.99793 </z1-m>
+      <x2-m> -1.35212 </x2-m>
+      <y2-m>  2.36079 </y2-m>
+      <z2-m> -1.01243 </z2-m>
     </axis>
-  </animation> -->
+  </animation>
 
  <!-- Rentre des roues -->
   <animation>
     <name>TrainAvant</name>
+    <object-name>axeA</object-name>
     <object-name>roueA</object-name>
   </animation>
 
@@ -556,6 +571,7 @@
  
   <animation>
     <name>TrainGauche</name>
+    <object-name>axeG</object-name>
     <object-name>roueG</object-name>
   </animation>
 
@@ -581,6 +597,7 @@
 
   <animation>
     <name>TrainDroit</name>
+    <object-name>axeD</object-name>
     <object-name>roueD</object-name>
   </animation>
 
@@ -713,30 +730,6 @@
     </axis>
   </animation>
 
-  <!-- Porte
-  <animation>
-    <name>PorteGauche</name>
-    <object-name>porte</object-name>
-    <object-name>vitreD</object-name>
-  </animation>
-
-  <animation>
-    <type>rotate</type>
-    <object-name>PorteGauche</object-name>
-    <property>instrumentation/doors/crew/position-norm</property>
-    <factor> 60 </factor>
-    <center>
-      <x-m> -1.672 </x-m>
-      <y-m>  0.654 </y-m>
-      <z-m> -0.424 </z-m>
-    </center>
-    <axis>
-      <x> 0 </x>
-      <y> 0 </y>
-      <z> 1 </z>
-    </axis>
-  </animation> -->
-
   <!-- Effets lumineux -->
   <model>
     <path>Aircraft/PC-12/Models/light/beacon.xml</path>
@@ -768,18 +761,18 @@
   <model>
     <path>Aircraft/PC-12/Models/light/GreenLight.xml</path>
     <offsets>
-      <x-m> -1.76153 </x-m>
-      <y-m>  7.60549 </y-m>
-      <z-m> -0.30948 </z-m>
+      <x-m> -1.61083 </x-m>
+      <y-m>  7.75830 </y-m>
+      <z-m> -0.29886 </z-m>
     </offsets>
   </model>
 
   <model>
     <path>Aircraft/PC-12/Models/light/StrobeWhite.xml</path>
     <offsets>
-      <x-m> -1.72053 </x-m>
-      <y-m>  7.60549 </y-m>
-      <z-m> -0.30948 </z-m>
+      <x-m> -1.57083 </x-m>
+      <y-m>  7.75830 </y-m>
+      <z-m> -0.29886 </z-m>
    </offsets>
   </model>
 

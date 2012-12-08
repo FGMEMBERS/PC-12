@@ -46,8 +46,8 @@
         sweep="-2"
         camber="0.01">
         <stall aoa="18" width="1" peak="1.5"/>
-        <flap0 start="0.00" end="0.47" lift="1.2" drag="1.25"/>
-        <flap1 start="0.47" end="0.86" lift="1.2" drag="1.1"/>
+        <flap0 start="0.08" end="0.75" lift="1.2" drag="1.25"/>
+        <flap1 start="0.76" end="1.00" lift="1.2" drag="1.1"/>
 
         <control-input axis="/controls/flight/flaps" control="FLAP0"/>
         <control-input axis="/controls/flight/aileron" control="FLAP1" split="true"/>
@@ -73,11 +73,11 @@
          <control-output control="FLAP0" prop="/surface-positions/elevator-pos-norm"/>
   </hstab>
 
-  <vstab x="-4.82945" y="0" z="0.25248" 
+  <vstab x="-4.40078" y="0" z="-0.17619" 
          chord="2.979"
-         length="2.001"
+         length="2.800"
          taper="0.40"
-         sweep="35">
+         sweep="40">
          <stall aoa="14" width="1" peak="1.5"/>
          <flap0 start="0.02" end="0.9" lift="1.75" drag="1.35"/>
 
@@ -85,7 +85,7 @@
          <control-input axis="/controls/flight/rudder-trim" control="FLAP0" invert="true"/>
 
          <control-output control="FLAP0" prop="/surface-positions/rudder-pos-norm" min="1" max="-1"/>
-  </vstab>
+  </vstab>3.00
 
   <!-- Engines   source            : http://en.wikipedia.org/wiki/Pratt_%26_Whitney_Canada_PT6A
 
@@ -162,10 +162,10 @@
   </gear>
 
   <tank x="1.58" y=" 2.58" z="-0.85" capacity="1500" />
-  <tank x="3.00" y=" 0.00" z="-1.00" capacity="1500" />
+  <tank x="2.50" y=" 0.00" z="-1.00" capacity="1500" />
   <tank x="1.58" y="-2.58" z="-0.85" capacity="1500" />
 
  <!-- Mass distribution -->
-  <ballast x="5" y="0" z="-2" mass="400"/>
+  <ballast x="6" y="0" z="-1.6" mass="550"/>
  
 </airplane>

@@ -1,6 +1,11 @@
 default
 
-These liveries were made by : Emmanuel BARANGER 2010
+These liveries were made by : Emmanuel BARANGER 2012
 
-Thanks ti him
+Thanks to him
 
+Lions-Air
+
+These liveries were made by : Emmanuel BARANGER 2012
+
+Thanks to him
