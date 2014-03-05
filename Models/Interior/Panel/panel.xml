@@ -21,6 +21,15 @@
     </offsets>
   </model>
 
+  <model>
+    <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/EADI/eadi.xml</path>
+    <offsets>
+      <x-m> 0.00 </x-m>
+      <y-m> 0.43 </y-m>
+      <z-m> 0.07 </z-m>
+    </offsets>
+  </model>
+  
   <!-- EHSI -->
   <model>
     <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/EHSI/ehsi.xml</path>
@@ -31,16 +40,34 @@
     </offsets>
   </model>
 
+  <model>
+    <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/EHSI/ehsi.xml</path>
+    <offsets>
+      <x-m>  0.00 </x-m>
+      <y-m>  0.43 </y-m>
+      <z-m> -0.07 </z-m>
+    </offsets>
+  </model>
+  
   <!-- ALT -->
   <model>
     <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/alt/alt.xml</path>
     <offsets>
       <x-m>  0.00 </x-m>
       <y-m> -0.30 </y-m>
-      <z-m> -0.04 </z-m>
+      <z-m>  0.04 </z-m>
     </offsets>
   </model>
 
+  <model>
+    <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/alt/alt.xml</path>
+    <offsets>
+      <x-m>  0.00 </x-m>
+      <y-m>  0.56 </y-m>
+      <z-m>  0.04 </z-m>
+    </offsets>
+  </model>
+  
   <!-- ALTSET -->
   <model>
     <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/altset/altset.xml</path>
@@ -51,6 +78,15 @@
     </offsets>
   </model>
 
+  <model>
+    <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/altset/altset.xml</path>
+    <offsets>
+      <x-m> 0.00 </x-m>
+      <y-m> 0.30 </y-m>
+      <z-m> 0.13 </z-m>
+    </offsets>
+  </model>
+  
   <!-- ASI -->
   <model>
     <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/asi/asi.xml</path>
@@ -61,6 +97,15 @@
     </offsets>
   </model>
 
+  <model>
+    <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/asi/asi.xml</path>
+    <offsets>
+      <x-m> 0.000 </x-m>
+      <y-m> 0.304 </y-m>
+      <z-m> 0.040 </z-m>
+    </offsets>
+  </model>
+  
   <!-- AOS -->
   <model>
     <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/aoa/aoa.xml</path>
@@ -71,6 +116,15 @@
     </offsets>
   </model>
 
+  <model>
+    <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/aoa/aoa.xml</path>
+    <offsets>
+      <x-m> 0.001 </x-m>
+      <y-m> 0.228 </y-m>
+      <z-m> 0.038 </z-m>
+    </offsets>
+  </model>
+  
   <!-- CHRONOMETER -->
   <model>
     <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/chrono/chronometer.xml</path>
@@ -81,6 +135,15 @@
     </offsets>
   </model>
 
+  <model>
+    <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/chrono/chronometer.xml</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m>  0.301 </y-m>
+      <z-m> -0.098 </z-m>
+    </offsets>
+  </model>
+  
   <!-- RWR -->
   <model>
     <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/rwr/rwr.xml</path>
@@ -91,4 +154,13 @@
     </offsets>
   </model>
 
-</PropertyList>
+  <model>
+    <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/rwr/rwr.xml</path>
+    <offsets>
+      <x-m>  0.011 </x-m>
+      <y-m>  0.588 </y-m>
+      <z-m> -0.069 </z-m>
+    </offsets>
+  </model>
+  
+  </PropertyList>
