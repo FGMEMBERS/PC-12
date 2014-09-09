@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!-- Pilatus PC12/47 - 2010 Emmanuel BARANGER
+             updated - 2014 Emmanuel BARANGER
+
+     sources          : http://en.wikipedia.org/wiki/Pilatus_PC-12
+
+     wingspan         :  16.23 m ( 53 ft 3 in )
+     length           :  14.40 m ( 47 ft 3 in )
+     height           :   4.26 m ( 14 ft 0 in )
+     empty weight     :  2761 kg ( 5867 lb    )
+     engine           : Pratt & Whitney Canada PT6A-67B or -67P turboprop ( 1217 hp )
+     Maximum speed    :   280 km/h ( 152 kts )
+     Cruise speed     :   500 km/h ( 270 Kts )
+-->
+
+<airplane mass="5867">
+
+  <!-- Approach configuration -->
+  <approach speed="120" aoa="2" fuel="0.2">
+    <control-setting axis="/controls/engines/engine[0]/throttle" value="0.2"/>
+    <control-setting axis="/controls/engines/engine[0]/condition" value="1"/>
+    <control-setting axis="/controls/engines/engine[0]/propeller-pitch" value="0.3"/>
+    <control-setting axis="/controls/flight/flaps" value="1"/>
+    <control-setting axis="/controls/gear/gear-down" value="1"/>
+  </approach>
+
+  <!-- Cruise configuration -->
+  <cruise speed="270" alt="0" fuel="0.5">
+    <control-setting axis="/controls/flight/elevator-trim" value="0"/>
+    <control-setting axis="/controls/engines/engine[0]/throttle" value="0.8"/>
+    <control-setting axis="/controls/engines/engine[0]/condition" value="1"/>
+    <control-setting axis="/controls/engines/engine[0]/propeller-pitch" value="0.9"/>
+    <control-setting axis="/controls/flight/flaps" value="0"/>
+    <control-setting axis="/controls/gear/gear-down" value="0"/>
+  </cruise>
+
+  <cockpit x="3.37507" y="0.37523" z="0.28085"/>
+
+  <fuselage ax="6.58961" ay="0" az="-0.463" bx="-5.14686" by="0" bz="-0.0321" width="1.662" taper="0.4" midpoint="0.3"/>
+
+  <wing x="1.18751" y="0.339" z="-1.07958" 
+        chord="2.158" 
+        length="7.138" 
+        taper="0.6"
+        dihedral="6"
+        sweep="-2"
+        camber="0.001">
+        <stall aoa="20" width="1" peak="1.5"/>
+        <flap0 start="0.08" end="0.75" lift="1.1" drag="1.1"/>
+        <flap1 start="0.76" end="1.00" lift="1.2" drag="1.1"/>
+
+        <control-input axis="/controls/flight/flaps" control="FLAP0"/>
+        <control-input axis="/controls/flight/aileron" control="FLAP1" split="true"/>
+        <control-input axis="/controls/flight/aileron-trim" control="FLAP1" split="true"/>
+
+        <control-output control="FLAP0" prop="/surface-positions/flap-pos-norm"/>
+        <control-output control="FLAP1" side="left" prop="/surface-positions/left-aileron-pos-norm"/>
+        <control-output control="FLAP1" side="right" prop="/surface-positions/right-aileron-pos-norm"/>
+
+        <control-speed control="FLAP0" transition-time="2"/>
+  </wing>
+
+  <hstab x="-6.16016" y="0" z="1.95551" 
+         chord="1.266" 
+         length="2.638" 
+         taper="0.7">
+         <stall aoa="18" width="1" peak="1.5"/>
+         <flap0 start="0" end="1" lift="1.2" drag="1.1"/>
+
+         <control-input axis="/controls/flight/elevator" control="FLAP0"/>
+         <control-input axis="/controls/flight/elevator-trim" control="FLAP0"/>
+
+         <control-output control="FLAP0" prop="/surface-positions/elevator-pos-norm"/>
+  </hstab>
+
+  <vstab x="-4.40078" y="0" z="-0.17619" 
+         chord="2.979"
+         length="2.8"
+         taper="0.4"
+         sweep="40">
+         <stall aoa="16" width="1" peak="1.5"/>
+         <flap0 start="0.02" end="0.9" lift="1.2" drag="1.1"/>
+
+         <control-input axis="/controls/flight/rudder" control="FLAP0" invert="true"/>
+         <control-input axis="/controls/flight/rudder-trim" control="FLAP0" invert="true"/>
+
+         <control-output control="FLAP0" prop="/surface-positions/rudder-pos-norm"/>
+  </vstab>
+
+  <!-- Engines   source            : http://en.wikipedia.org/wiki/Pratt_%26_Whitney_Canada_PT6A
+                                   : http://www.pwc.ca/en/engines/pt6a-67b
+
+                 Name              : Pratt & Whitney Canada PT6
+                 Type              : Turboprop
+                 Weight            : 270 lb ( 122.47 kg )
+                 Maximum power     : 1200 hp equivalent power at 2000 output rpm for take-off
+                 Pressure ratio    : 6.3:1
+ 
+ 
+ gear-ratio="0.66"
+  -->
+  <propeller x="5.61035" y="0.0" z="-0.40130"
+             mass="270" 
+             moment="73.211" 
+             radius="1.35"
+             cruise-speed="270" 
+             cruise-rpm="1500"
+             cruise-power="1000" 
+             cruise-alt="19000"
+             min-rpm="150" 
+             max-rpm="2200"
+             fine-stop="0.25" 
+             coarse-stop="3.0">
+             <actionpt x="6.72862" y="0.0" z="-0.40130"/>
+             <control-input axis="/controls/engines/engine[0]/propeller-pitch" control="ADVANCE"/>
+             <turbine-engine eng-power="1200" 
+                             eng-rpm="2000" 
+                             alt="19000"
+                             flat-rating="1200"
+                             n2-low-idle="32"
+                             n2-high-idle="65"
+                             n2-max="100"
+                             bsfc="0.35">
+                             <control-input axis="/controls/engines/engine[0]/condition" control="CONDLEVER"/>
+                             <control-input axis="/controls/engines/engine[0]/throttle" control="THROTTLE"/>
+             </turbine-engine>
+  </propeller>
+  
+  <!-- Noze wheel -->
+  <gear x="4.68439" y="0" z="-2.02835" 
+        compression="0.15" 
+        spring="0.8"
+        on-solid="1"
+        sfric="1"
+        dfric="1">
+        <control-input axis="/controls/flight/rudder" control="STEER" square="false"/>
+        <control-input axis="/controls/gear/gear-down" control="EXTEND"/>
+        
+        <control-output control="EXTEND" prop="/gear/gear[0]/position-norm"/>
+        
+        <control-speed control="EXTEND" transition-time="7"/>
+  </gear>
+
+  <!-- Left wheel -->
+  <gear x="1.22521" y="-2.24719" z="-2.11304"
+        compression="0.2" 
+        spring="1.8" 
+        damp="0.03" 
+        on-solid="1" >
+        <control-input axis="/controls/gear/brake-left" control="BRAKE"/>
+        <control-input axis="/controls/gear/brake-parking" control="BRAKE"/>
+        <control-input axis="/controls/gear/gear-down" control="EXTEND"/>
+        
+        <control-output control="EXTEND" prop="gear/gear[1]/position-norm"/>
+        
+        <control-speed control="EXTEND" transition-time="7"/>
+  </gear>
+
+  <!-- Right wheel -->
+  <gear x="1.22521" y="2.24719" z="-2.11304"
+        compression="0.2" 
+        spring="1.8"
+        damp="0.03" 
+        on-solid="1" >
+        <control-input axis="/controls/gear/brake-right" control="BRAKE"/>
+        <control-input axis="/controls/gear/brake-parking" control="BRAKE"/>
+        <control-input axis="/controls/gear/gear-down" control="EXTEND"/>
+        
+        <control-output control="EXTEND" prop="gear/gear[2]/position-norm"/>
+        
+        <control-speed control="EXTEND" transition-time="7"/>
+  </gear>
+
+  <tank x="1.58" y=" 2.58" z="-0.85" capacity="1500" />
+  <tank x="2.50" y=" 0.00" z="-1.00" capacity="1500" />
+  <tank x="1.58" y="-2.58" z="-0.85" capacity="1500" />
+
+  <!-- Mass distribution -->
+  <ballast x="6" y="0" z="-1.6" mass="550"/>
+ 
+</airplane>
