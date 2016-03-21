@@ -9,7 +9,7 @@ data 5
 table
 texture "seat.png"
 texrep 1.000000 1.000000
-crease 30.000001
+crease 180.000005
 numvert 16
 -0.312723 -0.019094 -0.220314
 -0.312723 -0.019094 0.216406

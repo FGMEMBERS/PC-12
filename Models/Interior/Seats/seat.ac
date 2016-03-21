@@ -9,7 +9,7 @@ data 4
 seat
 texture "seat.png"
 texrep 1.000000 1.000000
-crease 30.000001
+crease 180.000005
 numvert 194
 0.17752 -0.494672 0.2294
 -0.199081 -0.494672 0.2294
