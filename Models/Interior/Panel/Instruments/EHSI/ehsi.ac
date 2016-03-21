@@ -1,6 +1,6 @@
 AC3Db
 MATERIAL "DefaultWhite" rgb 1 1 1  amb 1 1 1  emis 0 0 0  spec 0.5 0.5 0.5  shi 64  trans 0
-MATERIAL "transparent" rgb 1 1 1 amb 0.5 0.5 0.5 emis 0 0 0 spec 1 1 1 shi 32 trans 0.85
+MATERIAL "transparent" rgb 1 1 1 amb 0.5 0.5 0.5 emis 0 0 0 spec 1 1 1 shi 64 trans 0.85
 OBJECT world
 kids 21
 OBJECT poly
@@ -10,7 +10,7 @@ data 10
 EHSI.bezel
 texture "ehsi.png"
 texrep 1.000000 1.000000
-crease 30.000001
+crease 180.000005
 numvert 32
 0.001361 0.066697 -0.065792
 0.001361 0.052216 -0.080024
@@ -221,7 +221,7 @@ data 12
 EHSI.compass
 texture "ehsi.png"
 texrep 1.000000 1.000000
-crease 30.000001
+crease 180.000005
 numvert 17
 0.004449 0.032953 -0.025953
 0.004449 0.021046 -0.03391
@@ -345,7 +345,7 @@ data 8
 EHSI.crs
 texture "ehsi.png"
 texrep 1.000000 1.000000
-crease 30.000001
+crease 180.000005
 numvert 4
 0.004449 -0.027691 0.048474
 0.004449 -0.033486 0.048474
@@ -367,7 +367,7 @@ data 9
 EHSI.crs1
 texture "ehsi.png"
 texrep 1.000000 1.000000
-crease 30.000001
+crease 180.000005
 numvert 4
 0.004449 -0.033657 0.059755
 0.004449 -0.043017 0.059755
@@ -389,7 +389,7 @@ data 9
 EHSI.crs2
 texture "ehsi.png"
 texrep 1.000000 1.000000
-crease 30.000001
+crease 180.000005
 numvert 4
 0.004449 -0.033657 0.053815
 0.004449 -0.043017 0.053815
@@ -411,7 +411,7 @@ data 9
 EHSI.crs3
 texture "ehsi.png"
 texrep 1.000000 1.000000
-crease 30.000001
+crease 180.000005
 numvert 4
 0.004449 -0.033657 0.047875
 0.004449 -0.043017 0.047875
@@ -433,7 +433,7 @@ data 14
 EHSI.crsneedle
 texture "ehsi.png"
 texrep 1.000000 1.000000
-crease 30.000001
+crease 180.000005
 numvert 24
 0.004896 0.034785 -0.000407
 0.004896 0.034785 0.000407
@@ -517,7 +517,7 @@ data 16
 EHSI.crsneedle.1
 texture "ehsi.png"
 texrep 1.000000 1.000000
-crease 30.000001
+crease 180.000005
 numvert 4
 0.005061 0.021264 0.001219
 0.005061 -0.007264 0.001219
@@ -539,7 +539,7 @@ data 9
 EHSI.gsp1
 texture "ehsi.png"
 texrep 1.000000 1.000000
-crease 30.000001
+crease 180.000005
 numvert 4
 0.004449 -0.033657 -0.046678
 0.004449 -0.043017 -0.046678
@@ -561,7 +561,7 @@ data 9
 EHSI.gsp2
 texture "ehsi.png"
 texrep 1.000000 1.000000
-crease 30.000001
+crease 180.000005
 numvert 4
 0.004449 -0.033657 -0.052689
 0.004449 -0.043017 -0.052689
@@ -583,7 +583,7 @@ data 9
 EHSI.gsp3
 texture "ehsi.png"
 texrep 1.000000 1.000000
-crease 30.000001
+crease 180.000005
 numvert 4
 0.004449 -0.033657 -0.0587
 0.004449 -0.043017 -0.0587
@@ -605,7 +605,7 @@ data 9
 EHSI.gspd
 texture "ehsi.png"
 texrep 1.000000 1.000000
-crease 30.000001
+crease 180.000005
 numvert 4
 0.004449 -0.027691 -0.058536
 0.004449 -0.033486 -0.058536
@@ -627,7 +627,7 @@ data 8
 EHSI.hdg
 texture "ehsi.png"
 texrep 1.000000 1.000000
-crease 30.000001
+crease 180.000005
 numvert 4
 0.004449 0.054119 -0.0619
 0.004449 0.048324 -0.0619
@@ -649,7 +649,7 @@ data 12
 EHSI.hdg-bug
 texture "ehsi.png"
 texrep 1.000000 1.000000
-crease 30.000001
+crease 180.000005
 numvert 10
 0.004827 0.046081 -0.002114
 0.004827 0.042828 -0.002114
@@ -698,7 +698,7 @@ data 9
 EHSI.hdg1
 texture "ehsi.png"
 texrep 1.000000 1.000000
-crease 30.000001
+crease 180.000005
 numvert 4
 0.004449 0.048498 -0.051856
 0.004449 0.039138 -0.051856
@@ -720,7 +720,7 @@ data 9
 EHSI.hdg2
 texture "ehsi.png"
 texrep 1.000000 1.000000
-crease 30.000001
+crease 180.000005
 numvert 4
 0.004449 0.048498 -0.057828
 0.004449 0.039138 -0.057828
@@ -742,7 +742,7 @@ data 9
 EHSI.hdg3
 texture "ehsi.png"
 texrep 1.000000 1.000000
-crease 30.000001
+crease 180.000005
 numvert 4
 0.004449 0.048498 -0.0638
 0.004449 0.039138 -0.0638
@@ -764,7 +764,7 @@ data 11
 EHSI.screen
 texture "ehsi.png"
 texrep 1.000000 1.000000
-crease 30.000001
+crease 180.000005
 numvert 4
 0.002884 -0.051456 0.073441
 0.003018 -0.05163 -0.072035
@@ -786,7 +786,7 @@ data 10
 EHSI.ticks
 texture "ehsi.png"
 texrep 1.000000 1.000000
-crease 30.000001
+crease 180.000005
 numvert 23
 0.003922 -0.021116 -0.064979
 0.003922 -0.012367 -0.060302
@@ -910,7 +910,7 @@ data 8
 EHSI.vsi
 texture "ehsi.png"
 texrep 1.000000 1.000000
-crease 30.000001
+crease 180.000005
 numvert 6
 0.005042 0.007865 -0.061589
 0.005042 0.006422 -0.061583
@@ -944,7 +944,7 @@ name "vitre"
 loc 0 0 -0
 data 5
 vitre
-crease 30.000001
+crease 180.000005
 numvert 8
 0.007241 0.055565 -0.063707
 0.007241 0.055528 0.063965
@@ -955,21 +955,21 @@ numvert 8
 0.007241 -0.043775 -0.07114
 0.007241 0.048864 -0.071091
 numsurf 3
-SURF 0x00
+SURF 0x10
 mat 1
 refs 4
 3 0.000344339904 0.054707091302
 4 0.052249018103 0
 1 0.050428684801 0.999648451805
 2 0 0.934569895267
-SURF 0x00
+SURF 0x10
 mat 1
 refs 4
 4 0.052249018103 0
 5 0.949571430683 0.000351478579
 0 0.947758078575 1
 1 0.050428684801 0.999648451805
-SURF 0x00
+SURF 0x10
 mat 1
 refs 4
 5 0.949571430683 0.000351478579

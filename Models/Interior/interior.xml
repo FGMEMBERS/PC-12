@@ -20,13 +20,6 @@
     <object-name>intvitrebaie</object-name>
   </animation>
 
-  <!-- working for Rembrandt -->
-  <effect>
-    <inherits-from>Aircraft/PC-12/Models/Effects/Glass/glass</inherits-from>
-    <object-name>intvitres</object-name>
-    <object-name>intvitrebaie</object-name>
-  </effect>
-  
   <effect>
     <inherits-from>Effects/model-transparent</inherits-from>
     <object-name>intvitres</object-name>

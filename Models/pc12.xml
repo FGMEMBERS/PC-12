@@ -4,6 +4,11 @@
 
   <path>pc12.ac</path>
 
+  <!-- MP sound call -->
+  <sound>
+    <path>Aircraft/PC-12/Sounds/mp-sound.xml</path>
+  </sound>
+  
   <nasal>
     <load>
       var livery_update = aircraft.livery_update.new("Aircraft/PC-12/Models/Liveries", 10);

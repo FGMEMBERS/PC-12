@@ -9,7 +9,7 @@ data 8
 Ch.EThr1
 texture "chrono.png"
 texrep 1.000000 1.000000
-crease 30.000001
+crease 180.000005
 numvert 4
 0.002961 0.004792 0.018374
 0.002961 -0.007433 0.018374
@@ -31,7 +31,7 @@ data 8
 Ch.EThr2
 texture "chrono.png"
 texrep 1.000000 1.000000
-crease 30.000001
+crease 180.000005
 numvert 4
 0.002961 0.004792 0.01074
 0.002961 -0.007433 0.01074
@@ -53,7 +53,7 @@ data 8
 Ch.ETmn1
 texture "chrono.png"
 texrep 1.000000 1.000000
-crease 30.000001
+crease 180.000005
 numvert 4
 0.002961 0.004792 -0.000557
 0.002961 -0.007433 -0.000557
@@ -75,7 +75,7 @@ data 8
 Ch.ETmn2
 texture "chrono.png"
 texrep 1.000000 1.000000
-crease 30.000001
+crease 180.000005
 numvert 4
 0.002961 0.004792 -0.00819
 0.002961 -0.007433 -0.00819
@@ -97,7 +97,7 @@ data 8
 Ch.colon
 texture "chrono.png"
 texrep 1.000000 1.000000
-crease 30.000001
+crease 180.000005
 numvert 12
 0.002961 0.015376 0.006985
 0.002961 0.005799 0.006985
@@ -141,7 +141,7 @@ data 6
 Ch.hr1
 texture "chrono.png"
 texrep 1.000000 1.000000
-crease 30.000001
+crease 180.000005
 numvert 4
 0.002961 0.017921 0.018374
 0.002961 0.005696 0.018374
@@ -163,7 +163,7 @@ data 6
 Ch.hr2
 texture "chrono.png"
 texrep 1.000000 1.000000
-crease 30.000001
+crease 180.000005
 numvert 4
 0.002961 0.017921 0.01074
 0.002961 0.005696 0.01074
@@ -185,7 +185,7 @@ data 6
 Ch.mn1
 texture "chrono.png"
 texrep 1.000000 1.000000
-crease 30.000001
+crease 180.000005
 numvert 4
 0.002961 0.017921 -0.000557
 0.002961 0.005696 -0.000557
@@ -207,7 +207,7 @@ data 6
 Ch.mn2
 texture "chrono.png"
 texrep 1.000000 1.000000
-crease 30.000001
+crease 180.000005
 numvert 4
 0.002961 0.017921 -0.00819
 0.002961 0.005696 -0.00819
@@ -229,7 +229,7 @@ data 6
 Ch.sc1
 texture "chrono.png"
 texrep 1.000000 1.000000
-crease 30.000001
+crease 180.000005
 numvert 4
 0.002961 0.017921 -0.019488
 0.002961 0.005696 -0.019488
@@ -251,7 +251,7 @@ data 6
 Ch.sc2
 texture "chrono.png"
 texrep 1.000000 1.000000
-crease 30.000001
+crease 180.000005
 numvert 4
 0.002961 0.017921 -0.027121
 0.002961 0.005696 -0.027121
@@ -273,7 +273,7 @@ data 14
 Chrono.control
 texture "chrono.png"
 texrep 1.000000 1.000000
-crease 45.000001
+crease 180.000005
 numvert 17
 0.003383 -0.028853 -0.015267
 0.003383 -0.030187 -0.01582
@@ -405,7 +405,7 @@ data 10
 Chrono.dim
 texture "chrono.png"
 texrep 1.000000 1.000000
-crease 45.000001
+crease 180.000005
 numvert 17
 0.003219 -0.004678 -0.027513
 0.003219 -0.007747 -0.028785
@@ -537,7 +537,7 @@ data 10
 Chrono.lcd
 texture "chrono.png"
 texrep 1.000000 1.000000
-crease 30.000001
+crease 180.000005
 numvert 6
 0.002666 0.020501 -0.012028
 0.002666 -0.013655 -0.012028
@@ -568,7 +568,7 @@ data 13
 Chrono.select
 texture "chrono.png"
 texrep 1.000000 1.000000
-crease 45.000001
+crease 180.000005
 numvert 17
 0.003383 -0.028853 0.009535
 0.003383 -0.030187 0.008982
@@ -700,7 +700,7 @@ data 11
 Chronometer
 texture "chrono.png"
 texrep 1.000000 1.000000
-crease 30.000001
+crease 180.000005
 numvert 37
 0.003429 0.030855 0.024777
 0.003429 0.027634 0.023443

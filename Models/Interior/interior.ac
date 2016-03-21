@@ -10,7 +10,7 @@ data 8
 cloisons
 texture "interior.png"
 texrep 1.000000 1.000000
-crease 30.000001
+crease 180.000005
 numvert 144
 -0.369999 0.466501 0.333399
 -0.369999 0.749785 0.342558
@@ -871,7 +871,7 @@ data 5
 cotes
 texture "interior.png"
 texrep 1.000000 1.000000
-crease 30.000001
+crease 180.000005
 numvert 442
 -0.609856 0.028904 -0.033324
 -0.603937 0.028904 -0.026112
@@ -3530,7 +3530,7 @@ data 7
 intbaie
 texture "interior.png"
 texrep 1.000000 1.000000
-crease 30.000001
+crease 180.000005
 numvert 118
 -0.123178 0.156552 0.168675
 -0.143817 0.128416 0.169054
@@ -4381,7 +4381,7 @@ data 9
 interieur
 texture "interior.png"
 texrep 1.000000 1.000000
-crease 30.000001
+crease 180.000005
 numvert 572
 1.334753 -0.20194 0.816342
 0.81628 0.0215 0.813333
@@ -8148,7 +8148,7 @@ data 8
 intporte
 texture "interior.png"
 texrep 1.000000 1.000000
-crease 30.000001
+crease 180.000005
 numvert 94
 -0.237319 0.052982 0.09683
 -0.23732 0.399567 0.063821
@@ -8848,7 +8848,7 @@ data 7
 inttour
 texture "interior.png"
 texrep 1.000000 1.000000
-crease 30.000001
+crease 180.000005
 numvert 790
 1.42785 -0.158718 0.847878
 1.42785 -0.349738 0.849863
@@ -12412,7 +12412,7 @@ name "intvitrebaie"
 loc 0.31766 0.086846 0.812833
 data 12
 intvitrebaie
-crease 30.000001
+crease 180.000005
 numvert 32
 0.137994 -0.103155 0.033278
 0.117355 -0.131292 0.033658
@@ -12563,7 +12563,7 @@ name "intvitres"
 loc -1.668998 0.196386 -0.00008
 data 9
 intvitres
-crease 30.000001
+crease 180.000005
 numvert 374
 -1.879505 0.233987 0.579845
 -1.80743 0.233987 0.625526
@@ -14389,7 +14389,7 @@ data 8
 planchet
 texture "interior.png"
 texrep 1.000000 1.000000
-crease 30.000001
+crease 180.000005
 numvert 24
 -1.6608 -0.770597 0.679702
 2.444417 -0.770597 0.637946
@@ -14522,7 +14522,7 @@ data 13
 trousgobelets
 texture "interior.png"
 texrep 1.000000 1.000000
-crease 30.000001
+crease 180.000005
 numvert 2316
 -0.513332 -0.080368 -0.000001
 -0.513332 -0.080368 -0.044033

@@ -9,7 +9,7 @@ data 5
 APalt
 texture "AltSet.png"
 texrep 1.000000 1.000000
-crease 30.000001
+crease 180.000005
 numvert 3
 0.001508 -0.002454 -0.005894
 0.001508 -0.002454 -0.005109
@@ -29,7 +29,7 @@ data 6
 APalt1
 texture "AltSet.png"
 texrep 1.000000 1.000000
-crease 30.000001
+crease 180.000005
 numvert 4
 0.001306 0.004507 0.001888
 0.001306 0.004507 0.009534
@@ -51,7 +51,7 @@ data 6
 APalt2
 texture "AltSet.png"
 texrep 1.000000 1.000000
-crease 30.000001
+crease 180.000005
 numvert 4
 0.001304 0.004507 -0.005628
 0.001304 0.004507 0.001904
@@ -73,7 +73,7 @@ data 6
 APalt3
 texture "AltSet.png"
 texrep 1.000000 1.000000
-crease 30.000001
+crease 180.000005
 numvert 4
 0.001305 0.004508 -0.01316
 0.001305 0.004508 -0.005628
@@ -95,7 +95,7 @@ data 6
 APalt4
 texture "AltSet.png"
 texrep 1.000000 1.000000
-crease 30.000001
+crease 180.000005
 numvert 4
 0.001304 0.003085 -0.019393
 0.001304 0.003085 -0.013166
@@ -117,7 +117,7 @@ data 6
 APalt5
 texture "AltSet.png"
 texrep 1.000000 1.000000
-crease 30.000001
+crease 180.000005
 numvert 4
 0.001304 0.003081 -0.02559
 0.001304 0.003081 -0.019368
@@ -139,7 +139,7 @@ data 12
 AltSet.bezel
 texture "AltSet.png"
 texrep 1.000000 1.000000
-crease 179.000000
+crease 180.000005
 numvert 32
 0 0.019107 -0.040136
 0 -0.019107 -0.040136
@@ -395,7 +395,7 @@ data 13
 AltSet.cancel
 texture "AltSet.png"
 texrep 1.000000 1.000000
-crease 30.000001
+crease 180.000005
 numvert 4
 0.001305 0.004917 0.026912
 0.001305 -0.00563 0.026912
@@ -417,7 +417,7 @@ data 11
 AltSet.knob
 texture "AltSet.png"
 texrep 1.000000 1.000000
-crease 45.000001
+crease 180.000005
 numvert 16
 0.00197 -0.01526 -0.019708
 0.001965 -0.015203 -0.023677

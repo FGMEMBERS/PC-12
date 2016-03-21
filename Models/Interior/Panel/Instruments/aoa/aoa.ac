@@ -10,7 +10,7 @@ data 11
 AOA.buttons
 texture "aoa.png"
 texrep 1.000000 1.000000
-crease 30.000001
+crease 180.000005
 numvert 102
 0.008853 -0.017223 0.020199
 0.008853 -0.018991 0.019018
@@ -1035,7 +1035,7 @@ data 8
 AOA.face
 texture "aoa.png"
 texrep 1.000000 1.000000
-crease 30.000001
+crease 180.000005
 numvert 17
 0.005011 0.018877 -0.018877
 0.005011 0.010217 -0.024664
@@ -1159,7 +1159,7 @@ data 8
 AOA.fond
 texture "aoa.png"
 texrep 1.000000 1.000000
-crease 79.999998
+crease 180.000005
 numvert 56
 0 0.029938 -0.028148
 0 -0.028327 -0.028327
@@ -1550,7 +1550,7 @@ data 10
 AOA.needle
 texture "aoa.png"
 texrep 1.000000 1.000000
-crease 45.000001
+crease 180.000005
 numvert 12
 0.006031 -0.009164 0.010216
 0.006031 -0.000843 0.001673
@@ -1627,7 +1627,7 @@ name "AOA.vitre"
 loc 0 0 -0
 data 9
 AOA.vitre
-crease 30.000001
+crease 180.000005
 numvert 34
 0.00182 0.000542 0.000019
 0.008628 0.021835 -0.014703

@@ -1,6 +1,6 @@
 AC3Db
 MATERIAL "DefaultWhite" rgb 1 1 1  amb 1 1 1  emis 0 0 0  spec 0.5 0.5 0.5  shi 64  trans 0
-MATERIAL "transparent" rgb 1 1 1 amb 0.5 0.5 0.5 emis 0 0 0 spec 1 1 1 shi 32 trans 0.85
+MATERIAL "transparent" rgb 1 1 1 amb 0.5 0.5 0.5 emis 0 0 0 spec 1 1 1 shi 64 trans 0.85
 OBJECT world
 kids 19
 OBJECT poly
@@ -10,7 +10,7 @@ data 3
 ALT
 texture "alt.png"
 texrep 1.000000 1.000000
-crease 45.000001
+crease 180.000005
 numvert 48
 0.004071 0.017945 -0.026811
 0.004071 0.00632 -0.031638
@@ -341,7 +341,7 @@ data 8
 ALT.face
 texture "alt.png"
 texrep 1.000000 1.000000
-crease 45.000001
+crease 180.000005
 numvert 4
 0.00191 0.032908 0.032909
 0.001901 -0.032908 0.032909
@@ -363,7 +363,7 @@ data 8
 ALT.knob
 texture "alt.png"
 texrep 1.000000 1.000000
-crease 60.000002
+crease 180.000005
 numvert 33
 0.00469 -0.024053 0.023674
 0.00469 -0.025855 0.02247
@@ -615,7 +615,7 @@ data 10
 ALT.needle
 texture "alt.png"
 texrep 1.000000 1.000000
-crease 45.000001
+crease 180.000005
 numvert 20
 0.002839 0.024934 -0.000842
 0.002839 0.016714 -0.000842
@@ -742,7 +742,7 @@ data 6
 ALTneg
 texture "alt.png"
 texrep 1.000000 1.000000
-crease 30.000001
+crease 180.000005
 numvert 4
 0.002589 0.015631 0.001883
 0.002496 0.004175 0.001883
@@ -764,7 +764,7 @@ data 5
 Alt10
 texture "alt.png"
 texrep 1.000000 1.000000
-crease 45.000001
+crease 180.000005
 numvert 6
 0.002458 0.015388 -0.018036
 0.002458 0.015388 -0.011829
@@ -795,7 +795,7 @@ data 6
 Alt100
 texture "alt.png"
 texrep 1.000000 1.000000
-crease 45.000001
+crease 180.000005
 numvert 4
 0.002433 0.015802 -0.005626
 0.002433 0.015802 0.001395
@@ -817,7 +817,7 @@ data 7
 Alt1000
 texture "alt.png"
 texrep 1.000000 1.000000
-crease 45.000001
+crease 180.000005
 numvert 4
 0.002433 0.015802 0.001395
 0.002433 0.015802 0.008415
@@ -839,7 +839,7 @@ data 8
 Alt10000
 texture "alt.png"
 texrep 1.000000 1.000000
-crease 45.000001
+crease 180.000005
 numvert 4
 0.002433 0.015802 0.008415
 0.002433 0.015802 0.015436
@@ -861,7 +861,7 @@ data 8
 Cylinder
 texture "alt.png"
 texrep 1.000000 1.000000
-crease 60.000002
+crease 180.000005
 numvert 33
 0.004144 0.030609 -0.029752
 0.004144 0.029545 -0.030463
@@ -1113,7 +1113,7 @@ data 6
 inhg01
 texture "alt.png"
 texrep 1.000000 1.000000
-crease 45.000001
+crease 180.000005
 numvert 4
 0.002142 -0.01116 -0.006532
 0.002142 -0.01116 -0.003235
@@ -1135,7 +1135,7 @@ data 6
 inhg02
 texture "alt.png"
 texrep 1.000000 1.000000
-crease 45.000001
+crease 180.000005
 numvert 4
 0.002142 -0.01116 -0.009829
 0.002142 -0.01116 -0.006532
@@ -1157,7 +1157,7 @@ data 6
 inhg03
 texture "alt.png"
 texrep 1.000000 1.000000
-crease 45.000001
+crease 180.000005
 numvert 4
 0.002142 -0.01116 -0.013126
 0.002142 -0.01116 -0.009829
@@ -1179,7 +1179,7 @@ data 6
 inhg04
 texture "alt.png"
 texrep 1.000000 1.000000
-crease 45.000001
+crease 180.000005
 numvert 4
 0.002142 -0.01116 -0.016424
 0.002142 -0.01116 -0.013126
@@ -1201,7 +1201,7 @@ data 5
 kpa01
 texture "alt.png"
 texrep 1.000000 1.000000
-crease 45.000001
+crease 180.000005
 numvert 4
 0.002142 -0.01116 0.013706
 0.002142 -0.01116 0.017003
@@ -1223,7 +1223,7 @@ data 5
 kpa02
 texture "alt.png"
 texrep 1.000000 1.000000
-crease 45.000001
+crease 180.000005
 numvert 4
 0.002142 -0.01116 0.010409
 0.002142 -0.01116 0.013706
@@ -1245,7 +1245,7 @@ data 5
 kpa03
 texture "alt.png"
 texrep 1.000000 1.000000
-crease 45.000001
+crease 180.000005
 numvert 4
 0.002142 -0.01116 0.007112
 0.002142 -0.01116 0.010409
@@ -1267,7 +1267,7 @@ data 5
 kpa04
 texture "alt.png"
 texrep 1.000000 1.000000
-crease 45.000001
+crease 180.000005
 numvert 4
 0.002142 -0.01116 0.003814
 0.002142 -0.01116 0.007112
@@ -1287,7 +1287,7 @@ name "vitre"
 loc 0 0 -0
 data 5
 vitre
-crease 45.000001
+crease 180.000005
 numvert 17
 0.004071 0.017945 -0.026811
 0.004071 0.00632 -0.031638

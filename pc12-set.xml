@@ -6,13 +6,16 @@
     
     <description>Pilatus PC12/47 (YASim)</description>
     <author>Emmanuel BARANGER (3D/FDM)</author>
+    <aircraft-version>0.1</aircraft-version>
+    <status>early production</status>
+    
     <flight-model archive="y">yasim</flight-model>
     <aero archive="y">pc12-yasim</aero>
     
     <rating>
-      <FDM type="int">     2 </FDM>
+      <FDM type="int">     3 </FDM>
       <systems type="int"> 1 </systems>
-      <cockpit type="int"> 1 </cockpit>
+      <cockpit type="int"> 2 </cockpit>
       <model type="int">   4 </model>
     </rating>
 

@@ -2118,7 +2118,7 @@ data 3
 bkg
 texture "rwr.png"
 texrep 1.000000 1.000000
-crease 30.000001
+crease 180.000005
 numvert 4
 -0.006681 -0.062902 -0.062895
 -0.006681 -0.062902 0.062819
@@ -2140,7 +2140,7 @@ data 6
 button
 texture "rwr.png"
 texrep 1.000000 1.000000
-crease 30.000001
+crease 180.000005
 numvert 65
 -0.006429 0.058847 0.05838
 -0.006429 0.059884 0.057118
@@ -2630,7 +2630,7 @@ name "intens-less"
 loc 0 0 -0
 data 11
 intens-less
-crease 30.000001
+crease 180.000005
 numvert 4
 0.000978 0.04001 0.052559
 0.000978 0.04001 0.071496
@@ -2650,7 +2650,7 @@ name "intens-more"
 loc 0 0 -0
 data 11
 intens-more
-crease 30.000001
+crease 180.000005
 numvert 4
 0.000978 0.04001 0.033589
 0.000978 0.04001 0.052526
@@ -2672,7 +2672,7 @@ data 5
 mount
 texture "rwr.png"
 texrep 1.000000 1.000000
-crease 30.000001
+crease 180.000005
 numvert 124
 -0.006104 -0.03976 -0.039753
 -0.006104 -0.046745 -0.031242
@@ -3627,7 +3627,7 @@ data 6
 screen
 texture "rwr.png"
 texrep 1.000000 1.000000
-crease 30.000001
+crease 180.000005
 numvert 544
 -0.005541 -0.020345 -0.03416
 -0.005541 -0.019406 -0.034715
@@ -6755,7 +6755,7 @@ name "vitre"
 loc 0 0 -0
 data 5
 vitre
-crease 45.000001
+crease 180.000005
 numvert 17
 -0.005553 0.034049 -0.050872
 -0.005553 0.011992 -0.060031
