@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <path>flaps.ac</path>
+
+  <animation>
+    <object-name>fond</object-name>
+    <object-name>posflap</object-name>
+    <object-name>bip</object-name>
+
+    <object-name>lampflap</object-name>
+    <object-name>af</object-name>
+    <object-name>frein</object-name>
+    <object-name>lamp3</object-name>
+    <object-name>lamp4</object-name>
+    <object-name>lamp5</object-name>
+    <object-name>gearG</object-name>
+    <object-name>gearA</object-name>
+    <object-name>gearD</object-name>
+  </animation>
+
+  <animation>
+    <type>material</type>
+    <object-name>lamp3</object-name>
+    <object-name>lamp4</object-name>
+    <condition>
+      <equals>
+        <property>surface-positions/flap-pos-norm</property>
+        <value>1</value>
+      </equals>
+      <equals>
+        <property>gear/gear[0]/position-norm</property>
+        <value>0</value>
+      </equals>
+	</condition>
+    <emission>
+      <red>   0.50 </red>
+      <green> 0.25 </green>
+      <blue>  0.25 </blue>
+    </emission>
+  </animation>    
+  
+    <animation>
+    <type>material</type>
+    <object-name>lamp5</object-name>
+    <condition>
+        <greater-than>
+          <property>/surface-positions/flap-pos-norm</property>
+          <value>0.6</value>
+		</greater-than>
+	    <less-than>
+          <property>/instrumentation/airspeed-indicator/indicated-speed-kt</property>
+          <value>120</value>
+		</less-than>
+	</condition>
+    <emission>
+      <red>   0.50 </red>
+      <green> 0.5 </green>
+      <blue>  0.5 </blue>
+    </emission>
+  </animation>    
+  
+
+  <animation>
+    <type>rotate</type>
+    <object-name>posflap</object-name>
+    <property>surface-positions/flap-pos-norm</property>
+    <factor>78</factor>
+    <center>
+      <x-m> 0.002 </x-m>
+      <y-m> 0.015 </y-m>
+      <z-m> 0.017 </z-m>
+    </center>
+    <axis>
+      <x> -1 </x>
+      <y>  0 </y>
+      <z>  0 </z>
+    </axis>
+  </animation>  
+
+  <animation>
+    <type>material</type>
+    <object-name>gearA</object-name>
+    <condition>
+		<greater-than>
+          <property>/surface-positions/flap-pos-norm</property>
+          <value>0.3</value>
+		</greater-than>
+    </condition>
+    <emission>
+      <red>   40 </red>
+      <green> 40 </green>
+      <blue>  40 </blue>
+    </emission>
+  </animation>
+
+  <animation>
+    <type>material</type>
+    <object-name>gearD</object-name>
+    <condition>
+		<greater-than>
+          <property>/surface-positions/flap-pos-norm</property>
+          <value>0.9</value>
+		</greater-than>
+    </condition>
+    <emission>
+	  <factor-prop>systems/electrical/volts</factor-prop>
+      <red>   40 </red>
+      <green> 40 </green>
+      <blue>  40 </blue>
+    </emission>
+  </animation>
+  
+  
+    <animation>
+    <type>material</type>
+    <object-name>gearG</object-name>
+    <condition>
+		<greater-than>
+          <property>/surface-positions/flap-pos-norm</property>
+          <value>0.64</value>
+		</greater-than>
+    </condition>	
+    <emission>
+      <red>   20 </red>
+      <green> 20 </green>
+      <blue>  20 </blue>
+    </emission>
+  </animation>
+
+</PropertyList>

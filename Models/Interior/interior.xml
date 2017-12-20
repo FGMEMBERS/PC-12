@@ -20,6 +20,13 @@
     <object-name>intvitrebaie</object-name>
   </animation>
 
+  <!-- working for Rembrandt -->
+  <effect>
+    <inherits-from>Aircraft/PC-12/Models/Effects/Glass/glass</inherits-from>
+    <object-name>intvitres</object-name>
+    <object-name>intvitrebaie</object-name>
+  </effect>
+  
   <effect>
     <inherits-from>Effects/model-transparent</inherits-from>
     <object-name>intvitres</object-name>
@@ -28,11 +35,29 @@
   
   <!-- Pilote -->
   <model>
-    <path>Aircraft/PC-12/Models/Pilot/pilot.xml</path>
+    <path>Models/Aircraft/testpilot.xml</path>
     <offsets>
-      <x-m> -3.54497 </x-m>
-      <y-m> -0.32879 </y-m>
-      <z-m> -0.27645 </z-m>
+      <x-m> -3.45 </x-m>
+      <y-m> -0.42879 </y-m>
+      <z-m> -0.5 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/PC-12/Models/Interior/Seats/pilot-seat.xml</path>
+    <offsets>
+      <x-m> -3.025 </x-m>
+      <y-m> -0.068 </y-m>
+      <z-m> -0.75 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/PC-12/Models/Interior/Seats/pilot-seat.xml</path>
+    <offsets>
+      <x-m> -3.025 </x-m>
+      <y-m>  0.85 </y-m>
+      <z-m> -0.75 </z-m>
     </offsets>
   </model>
 

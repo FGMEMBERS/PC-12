@@ -21,6 +21,19 @@
       <audible>true</audible>
       <path archive="y">Aircraft/PC-12/Sounds/pc12-sound.xml</path>
     </sound>
+   
+
+    <systems>
+    <autopilot>
+          <!--<path>Aircraft/c182/generic-autopilot.xml</path>-->
+    <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/kap140/autopilot/KAP140.xml</path>
+    </autopilot>
+    <property-rule n="100">
+      <name>FiltersOnly</name>
+      <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/kap140/autopilot/NAVandGSfilters.xml</path>
+    </property-rule>
+ 
+  </systems>
 
     <multiplay>
       <chat_display>1</chat_display>
@@ -86,6 +99,19 @@
     <menubar include="Dialogs/pc12-menu.xml"/>
 
   </sim>
+  
+  <controls>
+    <lighting>
+      <nav-lights type="bool">false</nav-lights>
+      <instrument-lights type="bool">false</instrument-lights>
+      
+      <landing-lights alias="/sim/rendering/als-secondary-lights/use-landing-light"/>
+      <taxi-light alias="/sim/rendering/als-secondary-lights/use-alt-landing-light"/>
+    </lighting>
+    <gear>
+      <brake-parking>1</brake-parking>
+    </gear>
+  </controls>
 
   <input include="Systems/pc12-keyboard.xml"/>
 
@@ -109,9 +135,25 @@
     <radardist>
       <file>Aircraft/Instruments-3d/radardist/radardist.nas</file>
     </radardist>
-    <rwr>
-      <file>Aircraft/PC-12/Models/Interior/Panel/Instruments/rwr/rwr.nas</file>
-    </rwr>
+    
+     <kln90b>
+      <file>Aircraft/PC-12/Models/Interior/Panel/Instruments/kln90b/kln90b.nas</file>
+    </kln90b>
+   
+    <kap140>
+      <file>Aircraft/PC-12/Models/Interior/Panel/Instruments/kap140/autopilot/kap140.nas</file>
+      <!-- We can set some variables that might be
+      aircraft specific. We must do it after the file
+      to override the ones that are in the .nas file.
+      gsNeedleDeflection = "/instrumentation/nav/gs-needle-deflection";
+      -->
+      <script>
+        <![CDATA[ 
+        staticPressure = "systems/static/pressure-inhg";
+        ]]>
+      </script>
+    </kap140>
+  
     <!--
     <engines>
       <file>Aircraft/Generic/Engines/generic-yasim-engine.nas</file>

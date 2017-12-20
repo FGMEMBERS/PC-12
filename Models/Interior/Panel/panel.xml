@@ -10,99 +10,258 @@
 
     <!-- Objets transparents -->
   </animation>
-
-  <!-- EADI -->
+  
+  <effect>
+		<inherits-from>Effects/lightmap</inherits-from>
+		<parameters>
+			<texture n="1">
+				<image>Aircraft/PC-12/Models/Effects/panellightmap.png</image>
+			</texture>
+			<condition>
+				<use>controls/lighting/panel-dim</use>
+			</condition>
+			
+		</parameters>
+		<object-name>panel</object-name>
+		
+	</effect>
+  
   <model>
-    <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/EADI/eadi.xml</path>
+    <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/kap140/KAP140TwoAxisAlt.xml</path>
     <offsets>
-      <x-m>  0.00 </x-m>
-      <y-m> -0.43 </y-m>
-      <z-m>  0.07 </z-m>
-    </offsets>
-  </model>
-
-  <model>
-    <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/EADI/eadi.xml</path>
-    <offsets>
-      <x-m> 0.00 </x-m>
-      <y-m> 0.43 </y-m>
-      <z-m> 0.07 </z-m>
+      <x-m>  -0.0021 </x-m>
+      <y-m>  -0.095 </y-m>
+      <z-m>  0.195 </z-m>
     </offsets>
   </model>
   
-  <!-- EHSI -->
   <model>
-    <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/EHSI/ehsi.xml</path>
+    <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/kma20/kma20.xml</path>
     <offsets>
-      <x-m>  0.00 </x-m>
-      <y-m> -0.43 </y-m>
-      <z-m> -0.07 </z-m>
+      <x-m>  -0.01 </x-m>
+      <y-m>   0.095 </y-m>
+      <z-m>  0.195 </z-m>
     </offsets>
   </model>
+  
+ <model>
+    <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/kln90b/kln90b.xml</path>
+    <offsets>
+      <x-m>  -0.068 </x-m>
+      <y-m>  -0.085 </y-m>
+      <z-m>  0.118 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/KT76A/KT76A.xml</path>
+    <offsets>
+      <x-m>  -0.076 </x-m>
+      <y-m>  -0.085 </y-m>
+      <z-m>  0.0725 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/engines/torq/torq1.xml</path>
+    <offsets>
+      <x-m>  -0.073 </x-m>
+      <y-m>  -0.12 </y-m>
+      <z-m>  0.01 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/engines/itt/itt1.xml</path>
+    <offsets>
+      <x-m>  -0.073 </x-m>
+      <y-m>  -0.12 </y-m>
+      <z-m>  -0.055 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/engines/rpm/rpm1.xml</path>
+    <offsets>
+      <x-m>  -0.073 </x-m>
+      <y-m>  -0.12 </y-m>
+      <z-m>  -0.12 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/engines/fflow/fflow1.xml</path>
+    <offsets>
+      <x-m>  -0.073 </x-m>
+      <y-m>  -0.05 </y-m>
+      <z-m>  0.01 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/engines/oil/oilp1.xml</path>
+    <offsets>
+      <x-m>  -0.073 </x-m>
+      <y-m>  -0.05 </y-m>
+      <z-m>  -0.055 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/k150/k150.xml</path>
+    <offsets>
+      <x-m>  -0.07 </x-m>
+      <y-m>   0.1125 </y-m>
+      <z-m>  -0.065 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/kr87-adf/kr87.xml</path>
+    <offsets>
+      <x-m> -0.068 </x-m>
+      <y-m>  0.1 </y-m>
+      <z-m>  0.02 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/kx165/kx165-1.xml</path>
+    <offsets>
+      <x-m> -0.08 </x-m>
+      <y-m>  0.1 </y-m>
+      <z-m>  0.065 </z-m>
+    </offsets>
+  </model>
+  
+   <model>
+    <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/kx165/kx165-2.xml</path>
+    <offsets>
+      <x-m> -0.08 </x-m>
+      <y-m>  0.1 </y-m>
+      <z-m>  0.118 </z-m>
+    </offsets>
+  </model>
+  
+   <model>
+    <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/kfc200/ki256.xml</path>
+    <offsets>
+      <x-m> -0.073 </x-m>
+      <y-m> -0.43 </y-m>
+      <z-m>  0.04 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/RMI/rmi.xml</path>
+    <offsets>
+      <x-m> -0.073 </x-m>
+      <y-m> -0.43 </y-m>
+      <z-m> -0.069 </z-m>
+    </offsets>
+  </model>
+  <!--
+  <model>
+    <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/kfc200/ki252a.xml</path>
+    <offsets>
+      <x-m> -0.073 </x-m>
+      <y-m> -0.43 </y-m>
+      <z-m> -0.079 </z-m>
+    </offsets>
+  </model>
+  -->
 
   <model>
-    <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/EHSI/ehsi.xml</path>
+    <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/kfc200/ki256.xml</path>
     <offsets>
-      <x-m>  0.00 </x-m>
+      <x-m> -0.073 </x-m>
       <y-m>  0.43 </y-m>
-      <z-m> -0.07 </z-m>
+      <z-m>  0.04 </z-m>
     </offsets>
   </model>
+  
+  <model>
+    <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/RMI/rmi.xml</path>
+    <offsets>
+      <x-m> -0.073 </x-m>
+      <y-m>  0.43 </y-m>
+      <z-m> -0.069 </z-m>
+    </offsets>
+  </model>
+  <!--
+  <model>
+    <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/kfc200/ki252a.xml</path>
+    <offsets>
+      <x-m> -0.073 </x-m>
+      <y-m>  0.43 </y-m>
+      <z-m> -0.079 </z-m>
+    </offsets>
+  </model>
+  -->
+  
+  <model>
+    <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/Rmi/rmi.xml</path>
+    <offsets>
+      <x-m> -0.073 </x-m>
+      <y-m> -0.538 </y-m>
+      <z-m> -0.076 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/Rmi/rmi.xml</path>
+    <offsets>
+      <x-m> -0.073 </x-m>
+      <y-m>  0.32 </y-m>
+      <z-m> -0.076 </z-m>
+    </offsets>
+  </model>
+  
+   <model>
+    <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/flaps/flaps.xml</path>
+    <offsets>
+      <x-m>  -0.072 </x-m>
+      <y-m> -0.325 </y-m>
+      <z-m>  0.115 </z-m>
+    </offsets>
+  </model>
+  
   
   <!-- ALT -->
   <model>
     <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/alt/alt.xml</path>
     <offsets>
-      <x-m>  0.00 </x-m>
-      <y-m> -0.30 </y-m>
-      <z-m>  0.04 </z-m>
+      <x-m>  -0.078 </x-m>
+      <y-m> -0.325 </y-m>
+      <z-m>  0.033 </z-m>
     </offsets>
   </model>
 
   <model>
     <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/alt/alt.xml</path>
     <offsets>
-      <x-m>  0.00 </x-m>
-      <y-m>  0.56 </y-m>
-      <z-m>  0.04 </z-m>
+      <x-m> -0.078 </x-m>
+      <y-m>  0.535 </y-m>
+      <z-m>  0.033 </z-m>
     </offsets>
-  </model>
-  
-  <!-- ALTSET -->
-  <model>
-    <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/altset/altset.xml</path>
-    <offsets>
-      <x-m>  0.00 </x-m>
-      <y-m> -0.30 </y-m>
-      <z-m>  0.13 </z-m>
-    </offsets>
-  </model>
-
-  <model>
-    <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/altset/altset.xml</path>
-    <offsets>
-      <x-m> 0.00 </x-m>
-      <y-m> 0.30 </y-m>
-      <z-m> 0.13 </z-m>
-    </offsets>
-  </model>
+  </model> 
   
   <!-- ASI -->
   <model>
-    <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/asi/asi.xml</path>
+    <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/Asi/asi300-3d.xml</path>
     <offsets>
-      <x-m>  0.000 </x-m>
-      <y-m> -0.556 </y-m>
-      <z-m>  0.040 </z-m>
+      <x-m> -0.068 </x-m>
+      <y-m> -0.535 </y-m>
+      <z-m>  0.03 </z-m>
     </offsets>
   </model>
 
   <model>
-    <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/asi/asi.xml</path>
+    <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/Asi/asi300-3d.xml</path>
     <offsets>
-      <x-m> 0.000 </x-m>
-      <y-m> 0.304 </y-m>
-      <z-m> 0.040 </z-m>
+      <x-m>-0.068 </x-m>
+      <y-m> 0.324 </y-m>
+      <z-m> 0.03 </z-m>
     </offsets>
   </model>
   
@@ -110,18 +269,18 @@
   <model>
     <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/aoa/aoa.xml</path>
     <offsets>
-      <x-m>  0.001 </x-m>
-      <y-m> -0.632 </y-m>
-      <z-m>  0.038 </z-m>
+      <x-m> -0.075 </x-m>
+      <y-m> -0.62 </y-m>
+      <z-m>  0.018 </z-m>
     </offsets>
   </model>
 
   <model>
     <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/aoa/aoa.xml</path>
     <offsets>
-      <x-m> 0.001 </x-m>
-      <y-m> 0.228 </y-m>
-      <z-m> 0.038 </z-m>
+      <x-m>-0.075 </x-m>
+      <y-m> 0.62 </y-m>
+      <z-m> 0.018 </z-m>
     </offsets>
   </model>
   
@@ -129,37 +288,156 @@
   <model>
     <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/chrono/chronometer.xml</path>
     <offsets>
-      <x-m>  0.000 </x-m>
-      <y-m> -0.559 </y-m>
-      <z-m> -0.098 </z-m>
+      <x-m> -0.073 </x-m>
+      <y-m> -0.635 </y-m>
+      <z-m> -0.08 </z-m>
     </offsets>
   </model>
 
   <model>
     <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/chrono/chronometer.xml</path>
     <offsets>
-      <x-m>  0.000 </x-m>
-      <y-m>  0.301 </y-m>
-      <z-m> -0.098 </z-m>
+      <x-m> -0.073 </x-m>
+      <y-m>  0.63 </y-m>
+      <z-m> -0.08 </z-m>
     </offsets>
   </model>
   
   <!-- RWR -->
   <model>
-    <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/rwr/rwr.xml</path>
+    <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/vsi/vsi.xml</path>
     <offsets>
-      <x-m>  0.011 </x-m>
-      <y-m> -0.272 </y-m>
-      <z-m> -0.069 </z-m>
+      <x-m> -0.078 </x-m>
+      <y-m> -0.325 </y-m>
+      <z-m> -0.075 </z-m>
     </offsets>
   </model>
 
   <model>
-    <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/rwr/rwr.xml</path>
+    <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/vsi/vsi.xml</path>
     <offsets>
-      <x-m>  0.011 </x-m>
-      <y-m>  0.588 </y-m>
-      <z-m> -0.069 </z-m>
+      <x-m> -0.078 </x-m>
+      <y-m>  0.535 </y-m>
+      <z-m> -0.075 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/compass/compass.xml</path>
+    <offsets>
+      <x-m>  0.05 </x-m>
+      <y-m>  -0.0 </y-m>
+      <z-m>  0.245 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/Yoke/yoke.xml</path>
+    <offsets>
+      <x-m> -0.04 </x-m>
+      <y-m>  0.47 </y-m>
+      <z-m> -0.165 </z-m>
+      <pitch-deg> -25 </pitch-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/Yoke/yoke.xml</path>
+    <offsets>
+      <x-m> -0.04 </x-m>
+      <y-m> -0.43 </y-m>
+      <z-m> -0.165 </z-m>
+      <pitch-deg> -25 </pitch-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/gear/gearctl.xml</path>
+    <offsets>
+      <x-m> -0.02 </x-m>
+      <y-m> -0.12 </y-m>
+      <z-m> -0.2120 </z-m>
+      <pitch-deg> -45 </pitch-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/WarnPanel/ctnpanel.xml</path>
+    <offsets>
+      <x-m> -0.04 </x-m>
+      <y-m> -0.0 </y-m>
+      <z-m> -0.1935 </z-m>
+      <pitch-deg> -45 </pitch-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/fuel/fuel1.xml</path>
+    <offsets>
+      <x-m> -0.04 </x-m>
+      <y-m>  0.15 </y-m>
+      <z-m> -0.1935 </z-m>
+      <pitch-deg> -45 </pitch-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/fuel/fuel2.xml</path>
+    <offsets>
+      <x-m> -0.04 </x-m>
+      <y-m>  0.23 </y-m>
+      <z-m> -0.1935 </z-m>
+      <pitch-deg> -45 </pitch-deg>
+    </offsets>
+  </model>
+  
+   <model>
+    <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/fuel/fuel3.xml</path>
+    <offsets>
+      <x-m> -0.04 </x-m>
+      <y-m>  0.31 </y-m>
+      <z-m> -0.1935 </z-m>
+      <pitch-deg> -45 </pitch-deg>
+    </offsets>
+  </model>
+  
+   <model>
+    <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/switch/landing-lights.xml</path>
+    <offsets>
+      <x-m> -0.04 </x-m>
+      <y-m> -0.18 </y-m>
+      <z-m> -0.19 </z-m>
+      <pitch-deg> -45 </pitch-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/switch/instr-lights.xml</path>
+    <offsets>
+      <x-m> -0.04 </x-m>
+      <y-m> -0.21 </y-m>
+      <z-m> -0.19 </z-m>
+      <pitch-deg> -45 </pitch-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/switch/nav-lights.xml</path>
+    <offsets>
+      <x-m> -0.04 </x-m>
+      <y-m> -0.24 </y-m>
+      <z-m> -0.19 </z-m>
+      <pitch-deg> -45 </pitch-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/lights/lightpanel.xml</path>
+    <offsets>
+      <x-m> -0.04 </x-m>
+      <y-m> -0.68 </y-m>
+      <z-m> -0.19 </z-m>
+      <pitch-deg> -45 </pitch-deg>
     </offsets>
   </model>
   
