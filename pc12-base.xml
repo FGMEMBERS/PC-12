@@ -25,7 +25,7 @@
 
     <systems>
     <autopilot>
-          <!--<path>Aircraft/c182/generic-autopilot.xml</path>-->
+          <!--<path>Aircraft/PC-12/generic-autopilot.xml</path>-->
     <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/kap140/autopilot/KAP140.xml</path>
     </autopilot>
     <property-rule n="100">

@@ -38,7 +38,7 @@ Syd Adams
    </animation>
 
     <effect>
-      <inherits-from>Aircraft/Aerostar-700/Models/Effects/test_reflect</inherits-from>
+      <inherits-from>Aircraft/PC-12/Models/Effects/test_reflect</inherits-from>
       <object-name>ASIbezel</object-name>
     </effect>
 

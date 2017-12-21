@@ -18,7 +18,7 @@
 		<lightmap-factor type="float" n="3"></lightmap-factor>
 		<lightmap-color type="vec3d" n="3"></lightmap-color>
 		<!--<texture n="3">
-			<image>Aircraft/ec130/Models/Effects/Lightmaps.png</image>
+			<image>Aircraft/PC-12/Models/Effects/Lightmaps.png</image>
 			<filter>linear-mipmap-linear</filter>
 			<wrap-s>clamp</wrap-s>
 			<wrap-t>clamp</wrap-t>

@@ -11,7 +11,7 @@
 
   <panel>
     <name>GPS screen</name>
-    <path>Aircraft/Cessna-208-Caravan/Models/Interior/Panel/Instruments/kln90b/gps.xml</path>
+    <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/kln90b/gps.xml</path>
     <bottom-left>
       <x-m>  0.003 </x-m>
       <y-m> -0.033 </y-m>

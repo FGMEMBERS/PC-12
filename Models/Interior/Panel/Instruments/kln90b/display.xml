@@ -19,7 +19,7 @@
       <w>284</w>
       <h>142</h>
       <texture>
-        <path>Aircraft/Cessna-208-Caravan/Models/Interior/Panel/Instruments/kln90b/gps.png</path>
+        <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/kln90b/gps.png</path>
         <x1>0.498</x1>
         <y1>0.016</y1>
         <x2>0.700</x2>
@@ -38,7 +38,7 @@
       <w>284</w>
       <h>142</h>
       <texture>
-        <path>Aircraft/Cessna-208-Caravan/Models/Interior/Panel/Instruments/kln90b/gps.png</path>
+        <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/kln90b/gps.png</path>
         <x1>0.532</x1>
         <y1>0.016</y1>
         <x2>0.898</x2>

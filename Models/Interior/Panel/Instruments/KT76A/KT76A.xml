@@ -75,7 +75,7 @@
  <animation>
     <type>shader</type>
     <shader>chrome</shader>
-    <texture>Aircraft/DR400-jsbSim/Models/Effects/glass_shader.dds</texture>
+    <texture>Aircraft/PC-12/Models/Effects/glass_shader.dds</texture>
     <object-name>vitre</object-name>
     <condition>
       <property>/sim/model/config/use-dds</property>
@@ -85,7 +85,7 @@
  <animation>
     <type>shader</type>
     <shader>chrome</shader>
-    <texture>Aircraft/DR400-jsbSim/Models/Effects/glass_shader.png</texture>
+    <texture>Aircraft/PC-12/Models/Effects/glass_shader.png</texture>
     <object-name>vitre</object-name>
     <condition>
       <not><property>/sim/model/config/use-dds</property></not>

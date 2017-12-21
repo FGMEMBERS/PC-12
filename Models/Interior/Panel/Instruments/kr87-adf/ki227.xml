@@ -20,7 +20,7 @@
 
   <!-- working for Rembrandt -->
   <effect>
-    <inherits-from>Aircraft/Tecnam-P2006T/Models/Effects/Glass/glass</inherits-from>
+    <inherits-from>Aircraft/PC-12/Models/Effects/Glass/glass</inherits-from>
     <object-name>vitre</object-name>
   </effect>
   

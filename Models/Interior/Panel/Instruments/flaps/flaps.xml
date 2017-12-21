@@ -14,7 +14,7 @@
 
   <!-- working for Rembrandt -->
   <effect>
-    <inherits-from>Aircraft/MD-312-Flamant/Models/Effects/Glass/glass</inherits-from>
+    <inherits-from>Aircraft/PC-12/Models/Effects/Glass/glass</inherits-from>
     <object-name>vitre</object-name>
   </effect>
   
