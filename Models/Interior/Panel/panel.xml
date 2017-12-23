@@ -90,7 +90,7 @@
   </model>
   
   <model>
-    <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/KT76A/KT76A.xml</path>
+    <path>Aircraft/Instruments-3d/kt76a/kt76a.xml</path>
     <offsets>
       <x-m>  -0.076 </x-m>
       <y-m>  -0.085 </y-m>
@@ -166,7 +166,7 @@
     <offsets>
       <x-m> -0.08 </x-m>
       <y-m>  0.1 </y-m>
-      <z-m>  0.065 </z-m>
+      <z-m>  0.118 </z-m>
     </offsets>
   </model>
   
@@ -175,7 +175,7 @@
     <offsets>
       <x-m> -0.08 </x-m>
       <y-m>  0.1 </y-m>
-      <z-m>  0.118 </z-m>
+      <z-m>  0.065 </z-m>
     </offsets>
   </model>
   
@@ -266,23 +266,35 @@
   
   <!-- CHRONOMETER -->
   <model>
-    <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/chrono/chronometer.xml</path>
+    <path>Aircraft/Instruments-3d/clock/M877/m877.xml</path>
     <offsets>
-      <x-m> -0.073 </x-m>
-      <y-m> -0.635 </y-m>
-      <z-m> -0.08 </z-m>
+      <x-m>  0.087 </x-m>
+      <y-m> -0.758 </y-m>
+      <z-m> -0.322 </z-m>
+      <pitch-deg>-42</pitch-deg>
     </offsets>
   </model>
 
   <model>
-    <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/chrono/chronometer.xml</path>
+    <path>Aircraft/Instruments-3d/clock/M877/m877.xml</path>
     <offsets>
-      <x-m> -0.073 </x-m>
-      <y-m>  0.63 </y-m>
-      <z-m> -0.08 </z-m>
+      <x-m>  0.087 </x-m>
+      <y-m>  0.758 </y-m>
+      <z-m> -0.322 </z-m>
+      <pitch-deg>-42</pitch-deg>
     </offsets>
   </model>
-  
+
+  <!-- NAV2 -->
+  <model>
+    <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/ki206/ki206.xml</path>
+    <offsets>
+      <x-m> -0.068</x-m>
+      <y-m> -0.670</y-m>
+      <z-m> -0.095</z-m>
+    </offsets>
+  </model>
+
   <!-- RWR -->
   <model>
     <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/vsi/vsi.xml</path>

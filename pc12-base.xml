@@ -135,7 +135,9 @@
     <radardist>
       <file>Aircraft/Instruments-3d/radardist/radardist.nas</file>
     </radardist>
-    
+    <m877>
+      <file>Aircraft/Instruments-3d/clock/M877/M877.nas</file>
+    </m877>
      <kln90b>
       <file>Aircraft/PC-12/Models/Interior/Panel/Instruments/kln90b/kln90b.nas</file>
     </kln90b>
