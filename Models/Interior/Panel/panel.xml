@@ -24,7 +24,43 @@
 		</parameters>
 		<object-name>panel</object-name>
 		
-	</effect>
+  </effect>
+
+  <model>
+    <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/EFIS-84/eadi.xml</path>
+    <offsets>
+      <x-m>  -0.07 </x-m>
+      <y-m>  -0.43 </y-m>
+      <z-m>   0.03 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/EFIS-84/ehsi.xml</path>
+    <offsets>
+      <x-m>  -0.07 </x-m>
+      <y-m>  -0.43 </y-m>
+      <z-m>  -0.08 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/EFIS-84/eadi.xml</path>
+    <offsets>
+      <x-m> -0.07 </x-m>
+      <y-m>  0.43 </y-m>
+      <z-m>  0.03 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/EFIS-84/ehsi.xml</path>
+    <offsets>
+      <x-m> -0.07 </x-m>
+      <y-m>  0.43 </y-m>
+      <z-m> -0.08 </z-m>
+    </offsets>
+  </model>
   
   <model>
     <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/kap140/KAP140TwoAxisAlt.xml</path>
@@ -142,62 +178,6 @@
       <z-m>  0.118 </z-m>
     </offsets>
   </model>
-  
-   <model>
-    <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/kfc200/ki256.xml</path>
-    <offsets>
-      <x-m> -0.073 </x-m>
-      <y-m> -0.43 </y-m>
-      <z-m>  0.04 </z-m>
-    </offsets>
-  </model>
-  
-  <model>
-    <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/RMI/rmi.xml</path>
-    <offsets>
-      <x-m> -0.073 </x-m>
-      <y-m> -0.43 </y-m>
-      <z-m> -0.069 </z-m>
-    </offsets>
-  </model>
-  <!--
-  <model>
-    <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/kfc200/ki252a.xml</path>
-    <offsets>
-      <x-m> -0.073 </x-m>
-      <y-m> -0.43 </y-m>
-      <z-m> -0.079 </z-m>
-    </offsets>
-  </model>
-  -->
-
-  <model>
-    <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/kfc200/ki256.xml</path>
-    <offsets>
-      <x-m> -0.073 </x-m>
-      <y-m>  0.43 </y-m>
-      <z-m>  0.04 </z-m>
-    </offsets>
-  </model>
-  
-  <model>
-    <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/RMI/rmi.xml</path>
-    <offsets>
-      <x-m> -0.073 </x-m>
-      <y-m>  0.43 </y-m>
-      <z-m> -0.069 </z-m>
-    </offsets>
-  </model>
-  <!--
-  <model>
-    <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/kfc200/ki252a.xml</path>
-    <offsets>
-      <x-m> -0.073 </x-m>
-      <y-m>  0.43 </y-m>
-      <z-m> -0.079 </z-m>
-    </offsets>
-  </model>
-  -->
   
   <model>
     <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/Rmi/rmi.xml</path>
@@ -441,4 +421,4 @@
     </offsets>
   </model>
   
-  </PropertyList>
+</PropertyList>
