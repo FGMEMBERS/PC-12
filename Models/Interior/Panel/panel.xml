@@ -245,13 +245,44 @@
     </offsets>
   </model>
   
+  <!-- Standby artificial horizon, captain side -->
+  <model>
+    <path>Aircraft/Instruments-3d/ai/ai.xml</path>
+    <offsets>
+      <x-m> -0.068</x-m>
+      <y-m> -0.630</y-m>
+      <z-m> -0.010</z-m>
+    </offsets>
+  </model>
+
+  <!-- Standby altimeter, captain side -->
+  <model>
+    <path>Aircraft/Instruments-3d/alt/alt.xml</path>
+    <offsets>
+      <x-m> -0.021 </x-m>
+      <y-m> -0.728 </y-m>
+      <z-m> -0.21  </z-m>
+      <pitch-deg>-46</pitch-deg>
+    </offsets>
+  </model>
+  
   <!-- CHRONOMETER -->
   <model>
     <path>Aircraft/Instruments-3d/clock/M877/m877.xml</path>
     <offsets>
-      <x-m>  0.087 </x-m>
+      <x-m>  0.077 </x-m>
       <y-m> -0.758 </y-m>
-      <z-m> -0.322 </z-m>
+      <z-m> -0.312 </z-m>
+      <pitch-deg>-42</pitch-deg>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/c172p/Models/Interior/Panel/Instruments/hobbs/hobbs.xml</path>
+    <offsets>
+      <x-m>  0.109 </x-m>
+      <y-m> -0.758 </y-m>
+      <z-m> -0.349 </z-m>
       <pitch-deg>-42</pitch-deg>
     </offsets>
   </model>
@@ -408,7 +439,7 @@
     <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/lights/lightpanel.xml</path>
     <offsets>
       <x-m> -0.04 </x-m>
-      <y-m> -0.68 </y-m>
+      <y-m> -0.62 </y-m>
       <z-m> -0.19 </z-m>
       <pitch-deg> -45 </pitch-deg>
     </offsets>

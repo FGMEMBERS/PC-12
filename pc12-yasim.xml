@@ -157,7 +157,7 @@
   </gear>
 
   <!-- Left wheel -->
-  <gear x="1.22521" y="-2.24719" z="-2.11304"
+  <gear x="1.22521" y="2.24719" z="-2.11304"
         compression="0.2" 
         spring="1.8" 
         damp="0.03" 
@@ -172,7 +172,7 @@
   </gear>
 
   <!-- Right wheel -->
-  <gear x="1.22521" y="2.24719" z="-2.11304"
+  <gear x="1.22521" y="-2.24719" z="-2.11304"
         compression="0.2" 
         spring="1.8"
         damp="0.03" 
