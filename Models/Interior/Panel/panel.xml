@@ -245,25 +245,6 @@
     </offsets>
   </model>
   
-  <!-- AOS -->
-  <model>
-    <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/aoa/aoa.xml</path>
-    <offsets>
-      <x-m> -0.075 </x-m>
-      <y-m> -0.62 </y-m>
-      <z-m>  0.018 </z-m>
-    </offsets>
-  </model>
-
-  <model>
-    <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/aoa/aoa.xml</path>
-    <offsets>
-      <x-m>-0.075 </x-m>
-      <y-m> 0.62 </y-m>
-      <z-m> 0.018 </z-m>
-    </offsets>
-  </model>
-  
   <!-- CHRONOMETER -->
   <model>
     <path>Aircraft/Instruments-3d/clock/M877/m877.xml</path>
