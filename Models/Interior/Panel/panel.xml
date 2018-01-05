@@ -27,41 +27,93 @@
   </effect>
 
   <model>
+    <name>Pilot_EADI</name>
     <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/EFIS-84/eadi.xml</path>
     <offsets>
       <x-m>  -0.07 </x-m>
       <y-m>  -0.43 </y-m>
-      <z-m>   0.03 </z-m>
+      <z-m>   0.06 </z-m>
     </offsets>
   </model>
   
+  <animation>
+    <type>scale</type>
+    <object-name>Pilot_EADI</object-name>
+    <center>
+      <x-m>-0.07</x-m>
+      <y-m>-0.43</y-m>
+      <z-m> 0.07</z-m>
+    </center>
+    <y-min>1.25</y-min>
+    <z-min>1.25</z-min>
+  </animation>
+
   <model>
+    <name>Pilot_EHSI</name>
     <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/EFIS-84/ehsi.xml</path>
     <offsets>
       <x-m>  -0.07 </x-m>
       <y-m>  -0.43 </y-m>
-      <z-m>  -0.08 </z-m>
+      <z-m>  -0.07 </z-m>
     </offsets>
   </model>
   
+  <animation>
+    <type>scale</type>
+    <object-name>Pilot_EHSI</object-name>
+    <center>
+      <x-m>-0.07</x-m>
+      <y-m>-0.43</y-m>
+      <z-m>-0.06</z-m>
+    </center>
+    <y-min>1.25</y-min>
+    <z-min>1.25</z-min>
+  </animation>
+
   <model>
+    <name>Copilot_EADI</name>
     <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/EFIS-84/eadi.xml</path>
     <offsets>
       <x-m> -0.07 </x-m>
       <y-m>  0.43 </y-m>
-      <z-m>  0.03 </z-m>
+      <z-m>  0.07 </z-m>
     </offsets>
   </model>
   
+  <animation>
+    <type>scale</type>
+    <object-name>Copilot_EADI</object-name>
+    <center>
+      <x-m>-0.07</x-m>
+      <y-m> 0.43</y-m>
+      <z-m> 0.07</z-m>
+    </center>
+    <y-min>1.25</y-min>
+    <z-min>1.25</z-min>
+  </animation>
+
   <model>
+    <name>Copilot_EHSI</name>
     <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/EFIS-84/ehsi.xml</path>
     <offsets>
       <x-m> -0.07 </x-m>
       <y-m>  0.43 </y-m>
-      <z-m> -0.08 </z-m>
+      <z-m> -0.06 </z-m>
     </offsets>
   </model>
-  
+
+  <animation>
+    <type>scale</type>
+    <object-name>Copilot_EHSI</object-name>
+    <center>
+      <x-m>-0.07</x-m>
+      <y-m> 0.43</y-m>
+      <z-m>-0.06</z-m>
+    </center>
+    <y-min>1.25</y-min>
+    <z-min>1.25</z-min>
+  </animation>
+
   <model>
     <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/kap140/KAP140TwoAxisAlt.xml</path>
     <offsets>
@@ -183,8 +235,8 @@
     <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/Rmi/rmi.xml</path>
     <offsets>
       <x-m> -0.073 </x-m>
-      <y-m> -0.538 </y-m>
-      <z-m> -0.076 </z-m>
+      <y-m> -0.548 </y-m>
+      <z-m> -0.085 </z-m>
     </offsets>
   </model>
   
@@ -192,28 +244,28 @@
     <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/Rmi/rmi.xml</path>
     <offsets>
       <x-m> -0.073 </x-m>
-      <y-m>  0.32 </y-m>
-      <z-m> -0.076 </z-m>
+      <y-m>  0.31 </y-m>
+      <z-m> -0.085 </z-m>
     </offsets>
   </model>
   
-   <model>
+  <model>
+    <name>Flap_Indicator</name>
     <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/flaps/flaps.xml</path>
     <offsets>
-      <x-m>  -0.072 </x-m>
-      <y-m> -0.325 </y-m>
-      <z-m>  0.115 </z-m>
+      <x-m> -0.072 </x-m>
+      <y-m> -0.530 </y-m>
+      <z-m>  0.090 </z-m>
     </offsets>
   </model>
-  
   
   <!-- ALT -->
   <model>
     <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/alt/alt.xml</path>
     <offsets>
-      <x-m>  -0.078 </x-m>
-      <y-m> -0.325 </y-m>
-      <z-m>  0.033 </z-m>
+      <x-m> -0.078 </x-m>
+      <y-m> -0.315 </y-m>
+      <z-m>  0.017 </z-m>
     </offsets>
   </model>
 
@@ -221,8 +273,8 @@
     <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/alt/alt.xml</path>
     <offsets>
       <x-m> -0.078 </x-m>
-      <y-m>  0.535 </y-m>
-      <z-m>  0.033 </z-m>
+      <y-m>  0.545 </y-m>
+      <z-m>  0.017 </z-m>
     </offsets>
   </model> 
   
@@ -231,8 +283,8 @@
     <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/Asi/asi300-3d.xml</path>
     <offsets>
       <x-m> -0.068 </x-m>
-      <y-m> -0.535 </y-m>
-      <z-m>  0.03 </z-m>
+      <y-m> -0.545 </y-m>
+      <z-m>  0.017 </z-m>
     </offsets>
   </model>
 
@@ -240,8 +292,8 @@
     <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/Asi/asi300-3d.xml</path>
     <offsets>
       <x-m>-0.068 </x-m>
-      <y-m> 0.324 </y-m>
-      <z-m> 0.03 </z-m>
+      <y-m> 0.314 </y-m>
+      <z-m> 0.017 </z-m>
     </offsets>
   </model>
   
@@ -307,13 +359,12 @@
     </offsets>
   </model>
 
-  <!-- RWR -->
   <model>
     <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/vsi/vsi.xml</path>
     <offsets>
       <x-m> -0.078 </x-m>
-      <y-m> -0.325 </y-m>
-      <z-m> -0.075 </z-m>
+      <y-m> -0.315 </y-m>
+      <z-m> -0.085 </z-m>
     </offsets>
   </model>
 
@@ -321,8 +372,8 @@
     <path>Aircraft/PC-12/Models/Interior/Panel/Instruments/vsi/vsi.xml</path>
     <offsets>
       <x-m> -0.078 </x-m>
-      <y-m>  0.535 </y-m>
-      <z-m> -0.075 </z-m>
+      <y-m>  0.545 </y-m>
+      <z-m> -0.085 </z-m>
     </offsets>
   </model>
   
