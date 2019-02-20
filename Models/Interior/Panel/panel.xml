@@ -332,9 +332,9 @@
   <model>
     <path>Aircraft/c172p/Models/Interior/Panel/Instruments/hobbs/hobbs.xml</path>
     <offsets>
-      <x-m>  0.109 </x-m>
-      <y-m> -0.758 </y-m>
-      <z-m> -0.349 </z-m>
+      <x-m>  0.405 </x-m>
+      <y-m> -1.175 </y-m>
+      <z-m> -0.125 </z-m>
       <pitch-deg>-42</pitch-deg>
     </offsets>
   </model>
