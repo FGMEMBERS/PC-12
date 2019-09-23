@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <path>k150.ac</path>
+
+  <animation>
+    <object-name>fond</object-name>
+    <object-name>z0</object-name>
+    <object-name>z1</object-name>
+    <object-name>z2</object-name>
+    <object-name>map0</object-name>
+    <object-name>map1</object-name>
+    <object-name>map2</object-name>
+    
+    <object-name>vitre</object-name>
+  </animation>
+
+  <!--  <animation>
+    <type>noshadow</type>
+    <object-name>vitre</object-name>
+  </animation>
+
+  <animation>
+    <type>shader</type>
+    <shader>chrome</shader>
+    <texture>Aircraft/Generic/Effects/glass_shader.png</texture>
+    <object-name>vitre</object-name>
+  </animation>
+
+
+  <effect>
+    <inherits-from>Effects/model-transparent</inherits-from>
+    <condition>
+      <property>sim/rendering/rembrandt/enabled</property>
+    </condition>
+    <object-name>vitre</object-name>
+  </effect>-->
+
+    <animation>
+    <type>material</type>
+    <object-name>radar0</object-name>
+
+    <emission>
+      <red>   0.30 </red>
+      <green> 0.45 </green>
+      <blue>  0.45 </blue>
+    </emission>
+  </animation>
+  
+  
+  <animation>
+    <type>material</type>
+    <object-name>z0</object-name>
+    <object-name>z0.001</object-name>
+    <object-name>z0.002</object-name>
+	<object-name>z0.003</object-name>
+    <object-name>z0.004</object-name>
+    <condition>
+      <property>/controls/lighting/instrument-lights</property>
+    </condition>
+    <emission>
+      <red>   0.10 </red>
+      <green> 0.15 </green>
+      <blue>  0.15 </blue>
+	  <factor-prop>/systems/electrical/outputs/instrument-lights-norm</factor-prop>
+    </emission>
+  </animation>
+
+  <animation>
+    <type>select</type>
+    <object-name>map0</object-name>
+	<object-name>map1</object-name>
+	<object-name>map2</object-name>
+    <condition>
+      <equals>
+        <property>/position/map/boom</property>
+        <value>22</value>>
+      </equals>
+    </condition>
+  </animation>
+  
+  <!--animation>
+    <type>select</type>
+    <object-name>map1</object-name>
+    <condition>
+      <equals>
+        <property>/position/map/zoom</property>
+        <value>1</value>>
+      </equals>
+    </condition>
+  </animation-->
+  
+  <animation>
+    <type>select</type>
+    <object-name>radar0</object-name>
+    <condition>
+      <equals>
+        <property>/position/map/zoom</property>
+        <value>2</value>>
+      </equals>
+	  	  <property>controls/electric/battery-switch</property>
+    </condition>
+  </animation>
+
+
+
+  <!--  Hotspots -->
+  <animation>
+    <type>pick</type>
+    <object-name>z0</object-name>
+    <visible>true</visible>
+    <action>
+      <button>0</button>
+      <repeatable>false</repeatable>
+      <binding>
+        <command>property-assign</command>
+        <property>/position/map/zoom</property>
+        <value>0</value>
+      </binding>
+    </action>
+  </animation>
+
+  <!--animation>
+    <type>pick</type>
+    <object-name>z0.001</object-name>
+    <visible>true</visible>
+    <action>
+      <button>0</button>
+      <repeatable>false</repeatable>
+      <binding>
+        <command>property-assign</command>
+        <property>/position/map/zoom</property>
+        <value>1</value>
+      </binding>
+    </action>
+  </animation-->
+
+  <animation>
+    <type>pick</type>
+    <object-name>z0.002</object-name>
+    <visible>true</visible>
+    <action>
+      <button>0</button>
+      <repeatable>false</repeatable>
+      <binding>
+        <command>property-assign</command>
+        <property>/position/map/zoom</property>
+        <value>2</value>
+      </binding>
+    </action>
+  </animation>
+
+</PropertyList>

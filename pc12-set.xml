@@ -18,6 +18,22 @@
       <cockpit type="int"> 2 </cockpit>
       <model type="int">   4 </model>
     </rating>
+    <tags>
+      <tag>transport</tag>
+      <tag>bush-plane</tag>
+      <tag>pilatus</tag>
+      <tag>1990s</tag>
+      <tag>2000s</tag>
+      <tag>2010s</tag>
+      <tag>ifr</tag>
+      <tag>retractable-gear</tag>
+      <tag>stol</tag>
+      <tag>tricycle</tag>
+      <tag>propeller</tag>
+      <tag>single-engine</tag>
+      <tag>turboprop</tag>
+      <tag>variable-pitch</tag>
+    </tags>
 
   </sim>
 

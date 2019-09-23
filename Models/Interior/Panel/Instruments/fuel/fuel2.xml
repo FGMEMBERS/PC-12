@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+<path>fuel.ac</path>
+
+
+
+    <animation>
+        <type>material</type>
+        <object-name>CARBneedle</object-name>
+    <condition>
+      <not><property>/controls/lighting/instrument-lights</property></not>
+    </condition>		
+        <emission>
+            <red>0.38</red>
+            <green>0.38</green>
+            <blue>0.38</blue>
+        </emission>
+    </animation>
+
+    <animation>
+        <type>material</type>
+        <object-name>Carbtemp.face</object-name>
+    <condition>
+      <property>/controls/lighting/instrument-lights</property>
+    </condition>		
+        <emission>
+            <red>0.7</red>
+            <green>0.55</green>
+            <blue>0.4</blue>
+            
+        </emission>
+    </animation>
+	
+	    <animation>
+        <type>material</type>
+        <object-name>CARBneedle</object-name>
+    <condition>
+      <property>/controls/lighting/instrument-lights</property>
+    </condition>		
+        <emission>
+            <red>1</red>
+            <green>0</green>
+            <blue>0</blue>
+            
+        </emission>
+    </animation>
+	
+	
+
+    <animation>
+        <type>rotate</type>
+        <object-name>CARBneedle</object-name>
+        <property>/consumables/fuel/tank[1]/level-lbs</property>
+        <interpolation>
+            <entry><ind> 0</ind><dep>45.0</dep></entry>
+            <entry><ind> 800</ind><dep>165</dep></entry>
+            <entry><ind>1600</ind><dep>280</dep></entry>
+        </interpolation>
+        <axis>
+            <x>-1</x>
+            <y>0</y>
+            <z>0</z>
+        </axis>
+        <center>
+            <x-m>0</x-m>
+            <y-m>0</y-m>
+            <z-m>0</z-m>
+        </center>
+    </animation>
+
+</PropertyList>
